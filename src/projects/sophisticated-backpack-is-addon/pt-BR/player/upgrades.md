@@ -7,6 +7,8 @@ description: O que cada upgrade de Digital Storage Expansion faz.
 
 O mod adiciona oito upgrades para Sophisticated Backpacks. Cada função tem um único item universal: vincule-o ao AE2, Refined Storage ou Tom's Simple Storage; SCC 1.5.3 ou mais recente também é compatível no NeoForge 1.21.1. Não é preciso obter um item diferente para cada rede.
 
+Os ícones abaixo mostram cada upgrade sem vínculo. Depois de vinculado, a tela do upgrade escurece e o ícone assume a cor da rede; veja [Vínculo](linking#como-fica-um-upgrade-vinculado).
+
 | Ícone | Upgrade | O que faz |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_deposit_upgrade.png" alt="Remote Deposit" width="32"> | **Remote Deposit** | Deposita itens correspondentes da mochila na rede vinculada pelo botão da aba. |

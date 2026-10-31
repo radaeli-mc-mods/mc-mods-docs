@@ -18,6 +18,18 @@ Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os oito t
    - **SCC (somente NeoForge 1.21.1):** Network Antenna.
 4. Uma mensagem confirma quando o vínculo é salvo. Coloque o upgrade em um slot de upgrade da mochila e abra sua aba para configurá-lo.
 
+## Como fica um upgrade vinculado
+
+O upgrade muda de aparência conforme o vínculo, nos slots, na mão e no mundo:
+
+- **Sem vínculo:** tela verde, com o ícone do upgrade nas cores originais.
+- **Vinculado:** tela escura, e o ícone assume a cor da rede: roxo para Applied Energistics 2, azul para Refined Storage, carvalho para Tom's Simple Storage e dourado para Super Cool Calculator.
+- **Quinas:** as quatro quinas sempre mostram as redes compatíveis, uma em cada (AE2 em cima à esquerda, SCC em cima à direita, Tom's Simple Storage embaixo à esquerda, Refined Storage embaixo à direita).
+
+Ao vincular, toca uma animação curta: a cor da rede corre pelo aro a partir da quina dela, varre a tela e assenta. Trocar para outra rede toca a mesma animação a partir do visual da rede anterior. Desvincular pela criação volta direto ao visual verde, sem animação.
+
+<img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrade_link_states.png" alt="Remote Feeding Upgrade sem vínculo e vinculado ao Applied Energistics 2, Refined Storage, Tom's Simple Storage e Super Cool Calculator" width="420">
+
 O jogador precisa ter permissão para interagir com o bloco e acessar a rede. A disponibilidade da rede, o alcance sem fio e as permissões continuam sob controle do mod de armazenamento. O upgrade não cria acesso sem fio nem contorna essas regras.
 
 ## Trocar ou remover o vínculo

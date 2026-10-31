@@ -11,7 +11,7 @@ Conecte o Sophisticated Backpacks a uma rede de armazenamento digital existente.
 
 Cada upgrade se vincula a um ponto da rede e segue as regras de alcance e acesso dela. Os upgrades de itens funcionam com as quatro redes onde há suporte; Remote Pump transfere fluidos com AE2 e Refined Storage nos dois loaders e com SCC no NeoForge. Tom's Simple Storage só transfere itens.
 
-**Versão documentada:** 0.3.0
+**Versão documentada:** 0.4.0
 
 **Minecraft:** 1.20.1 (Forge) e 1.21.1 (NeoForge)
 

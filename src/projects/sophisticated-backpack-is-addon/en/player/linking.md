@@ -18,6 +18,18 @@ Each remote upgrade stores its own link to one network endpoint. All eight upgra
    - **SCC (NeoForge 1.21.1 only):** Network Antenna.
 4. A confirmation appears when the link is saved. Put the upgrade into a backpack upgrade slot and open its tab to configure the function.
 
+## How a linked upgrade looks
+
+The upgrade changes appearance with its link, in slots, in hand, and in the world:
+
+- **Unlinked:** a green screen with the upgrade's icon in its original colors.
+- **Linked:** a dark screen, and the icon takes the color of the network: purple for Applied Energistics 2, blue for Refined Storage, oak brown for Tom's Simple Storage, and gold for Super Cool Calculator.
+- **Corners:** the four corners always show the supported networks, one each (AE2 top left, SCC top right, Tom's Simple Storage bottom left, Refined Storage bottom right).
+
+When you link an upgrade, a short animation plays: the network color runs around the frame from its corner, sweeps across the screen, and settles. Switching to another network plays the same animation from the previous network's look. Unlinking by crafting returns straight to the green look without animation.
+
+<img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrade_link_states.png" alt="Remote Feeding Upgrade unlinked, then linked to Applied Energistics 2, Refined Storage, Tom's Simple Storage, and Super Cool Calculator" width="420">
+
 The player must be allowed to interact with the block and access the network. Network availability, wireless range, and permissions remain controlled by the storage mod. The upgrade does not create wireless access or bypass these rules.
 
 ## Change or remove a link

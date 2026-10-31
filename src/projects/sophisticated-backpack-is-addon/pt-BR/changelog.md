@@ -7,6 +7,12 @@ description: Histórico de versões de Digital Storage Expansion.
 
 Fonte canônica: [CHANGELOG.md no GitHub](https://github.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/blob/main/CHANGELOG.md).
 
+## [0.4.0] - 2026-10-31
+
+### Alterado
+
+- Atualizado o visual dos upgrades remotos, com ícones na cor da rede e uma animação breve ao vinculá-los.
+
 ## [0.3.0] - 2026-10-30
 
 ### Adicionado
