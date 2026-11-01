@@ -7,9 +7,9 @@ description: Sensores aviônicos, saídas de redstone e integração CC:Tweaked 
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1766429.svg)](https://www.curseforge.com/minecraft/mc-mods/aeronautics-fly-by-instruments)
 
-Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O conjunto experimental acrescenta o Avionics Computer com seu GPWS, a Modular Table do cockpit com lâmpadas, buzzers e FMS, e o Avionics Wire que liga tudo.
+Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O conjunto aviônico acrescenta o Avionics Computer com seu GPWS, a Modular Table do cockpit com lâmpadas, buzzers e FMS, e o Avionics Wire que liga tudo.
 
-**Documentação referente à versão 0.2.0 de Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
+**Documentação referente à versão 0.3.0 de Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
 
 ![Modelo do Radar Altimeter](../assets/radar-altimeter.png)
 
@@ -17,12 +17,14 @@ Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. 
 
 - [Instalação e uso](player/)
 - [Sensors](player/sensors): Radar Altimeter, Terrain Scanner e Advanced Terrain Scanner
-- [Avionics Computer e GPWS](player/avionics-computer) (Experimental)
-- [Modular Table](player/modular-table): lâmpadas, buzzer e FMS (Experimental)
-- [Avionics Wire](player/avionics-network): conectores, suportes e Wiring View (Experimental)
+- [Avionics Computer e GPWS](player/avionics-computer)
+- [Modular Table](player/modular-table): lâmpadas, buzzer e FMS
+- [Avionics Wire](player/avionics-network): conectores, suportes e Wiring View
+- [Tutoriais Ponder](player/ponder)
+- [Configurações](player/configuration)
 - [Computer Craft](player/computer-craft)
 
-Os sensores são os blocos estáveis. As páginas Experimental cobrem o conjunto aviônico adicionado na 0.2.0: ele pode ser fabricado, mas o comportamento ainda pode mudar entre versões. Computer Craft reúne todas as instruções de CC:Tweaked e Lua em uma só página.
+O conjunto aviônico pode ser fabricado. Apenas a Network Bridge permanece Experimental e exclusiva do criativo. Computer Craft reúne todas as instruções de CC:Tweaked e Lua em uma só página.
 
 | | |
 | --- | --- |
@@ -33,4 +35,4 @@ Os sensores são os blocos estáveis. As páginas Experimental cobrem o conjunto
 
 [Consultar notas de versão](./changelog)
 
-Todos os blocos, exceto a Avionics Network Bridge, têm receita. Os blocos marcados como Experimental ainda podem mudar entre versões; teste-os antes de depender deles num mundo importante.
+Todos os blocos, exceto a Avionics Network Bridge, têm receita. A Bridge permanece Experimental e exclusiva do criativo.

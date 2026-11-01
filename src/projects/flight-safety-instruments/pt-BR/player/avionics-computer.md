@@ -4,10 +4,6 @@ title: Avionics Computer e GPWS
 
 # Avionics Computer e GPWS
 
-::: warning Experimental
-O Avionics Computer (no jogo em português, Computador de Aviônica) é conteúdo Experimental adicionado na 0.2.0. Pode ser fabricado, mas o comportamento pode mudar.
-:::
-
 ![Avionics Computer em operação normal (esquerda) e em alerta (direita)](../../assets/avionics-computer.png)
 
 O Avionics Computer é o centro da aeronave. Ele lê todos os sensores da rede, atribui um papel a cada um e roda um **GPWS** (Ground Proximity Warning System, sistema de alerta de proximidade do solo) sobre essas leituras. Ele avisa sobre terreno à frente, descida rápida, voo baixo demais e inclinação excessiva. Também é o ponto de entrada do [Computer Craft](computer-craft#avionics-computer-api) para a rede inteira.

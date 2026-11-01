@@ -4,10 +4,6 @@ title: Avionics Wire
 
 # Avionics Wire
 
-::: warning Experimental
-The Avionics Wire is Experimental content added in 0.2.0. Its parts can be crafted, but their behavior may change.
-:::
-
 The Avionics Wire is the avionics network: it carries data between instruments, the sensors, the [Avionics Computer](avionics-computer) and the [Modular Table](modular-table). It is a real wire that hangs between connectors and passes through supports. It is not a block, so it takes no space.
 
 The network carries data only: no power, no redstone. Each instrument still has its own redstone output and Computer Craft peripheral.

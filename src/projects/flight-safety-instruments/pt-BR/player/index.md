@@ -18,7 +18,7 @@ Create Aeronautics vem incluído no mod. Instale Fly by Instruments e suas depen
 
 Fabrique os sensores e coloque-os na nave. Conecte componentes de redstone ou Redstone Links do Create. Abra [Sensors](sensors) para instruções de posicionamento, controles e configuração das saídas.
 
-Para dar um GPWS à aeronave, coloque um [Avionics Computer](avionics-computer), ligue-o aos sensores com o [Avionics Wire](avionics-network) e mostre os alertas numa [Modular Table](modular-table) com lâmpadas e buzzers. Esses blocos são Experimental: podem ser fabricados, mas ainda podem mudar entre versões.
+Para dar um GPWS à aeronave, coloque um [Avionics Computer](avionics-computer), ligue-o aos sensores com o [Avionics Wire](avionics-network) e mostre os alertas numa [Modular Table](modular-table) com lâmpadas e buzzers.
 
 Segure **Shift** sobre qualquer bloco ou módulo no inventário para ver um resumo do que ele faz e de como usá-lo, no mesmo estilo das dicas do Create.
 

@@ -4,10 +4,6 @@ title: Modular Table
 
 # Modular Table
 
-::: warning Experimental
-The Modular Table and its modules are Experimental content. They can be crafted, but their behavior may change.
-:::
-
 ![A Modular Table with an FMS module, a lit red lamp, an amber lamp and a buzzer](../../assets/modular-table.png)
 
 The Modular Table is the cockpit panel. It is a thin brass-and-wood slab with a 3 × 3 grid of cells. You install **modules** in the cells: warning lamps, a buzzer and the Flight Management System (FMS). Lamps and buzzers show the alerts of the [Avionics Computer](avionics-computer).

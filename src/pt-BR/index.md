@@ -25,7 +25,8 @@ Sensores aviônicos e integrações CC:Tweaked para Create Aeronautics.
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge
-- **Guias:** sensores, aviônicos, cabeamento e Computer Craft
+- **Versão:** 0.3.0
+- **Guias:** sensores, aviônicos, cabeamento, tutoriais Ponder, configurações e Computer Craft
 
 [Abrir a documentação de Fly by Instruments](/pt-BR/mods/flight-safety-instruments/)
 

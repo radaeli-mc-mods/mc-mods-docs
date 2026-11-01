@@ -5,6 +5,26 @@ description: Release history for Fly by Instruments.
 
 # Fly by Instruments changelog
 
+## [0.3.0] - 2026-11-01
+
+### Added
+
+- Added eleven Ponder tutorials in English and Brazilian Portuguese for sensors, wiring, cockpit panels and FMS navigation.
+- Added optional PonderJS, KubeJS and Rhino support for the in-game tutorials.
+
+### Changed
+
+- Removed the Experimental label from the avionics blocks and modules; the Network Bridge remains Experimental and creative-only.
+
+### Fixed
+
+- Fixed wires remaining connected or visible after a connector or support was removed.
+- Fixed duplicate wire refunds when removing wire nodes.
+- Fixed the Advanced Terrain Scanner sending redstone signals through the wrong faces.
+- Fixed buzzers on the same panel channel sounding out of sync.
+- Fixed lit panel lamps being covered by sky and clouds with shaders.
+- Fixed the buzzer tooltip to explain silencing and sneak-click configuration.
+
 ## [0.2.0] - 2026-10-28
 
 An experimental avionics suite: a ground proximity warning computer, a cockpit panel and physical wires.
@@ -19,14 +39,21 @@ An experimental avionics suite: a ground proximity warning computer, a cockpit p
 - Added a "Looks at" setting to Terrain Scanners to tell the Avionics Computer which side of the ship they watch.
 - Added joined Modular Tables: tables side by side form one panel, and modules can span several tables.
 - Added docking: a Modular Table mounted on an Avionics Computer joins its network without any wire.
-- Added lamp indications (GPWS warning, caution, INOP or a single function), amber lamps, and silencing the alarm by clicking a lit lamp.
+- Added lamp indications (GPWS warning, caution, INOP or a single function) and amber lamps.
+- Added silencing the alarm by clicking a lit lamp or a sounding buzzer; sneak-click on a buzzer opens its settings.
 - Added a heading compass to the FMS screen that marks the selected waypoint.
+- Added one-click linking of an FMS Compass from the FMS screen.
 - Added block light from lit table lamps.
+- Added crafting recipes for the experimental avionics suite: Avionics Computer, Modular Table, lamps, buzzer, FMS, FMS Compass, Avionics Wire, Wire Connector and Wire Support. The Network Bridge stays creative-only.
+- Added Create-style "Hold [Shift] for Summary" tooltips to every block and module.
 
 ### Changed
 
 - Changed the sensor screen to a new layout where changes apply immediately, with a new Redstone Link frequency picker.
-- Changed the look of the experimental Modular Table, lamps, FMS and avionics blocks to match the Create style.
+- Changed the look of the experimental Modular Table, lamps, buzzer, FMS and avionics blocks to match the Create style.
+- Changed the FMS screen into one clear panel: the destination with distance and bearing on top, and waypoints you click to fly direct to (right click to edit).
+- Changed new FMS waypoints to start at your position with the name ready to type, and deleting a waypoint now asks for a second click.
+- Renamed the Flight Management System Module item to FMS.
 - Changed the Modular Table Base to 4 pixels thick, so modules sit 1 pixel higher.
 - Changed the required R-UI Lib version to 0.8.0 or newer.
 
@@ -35,6 +62,8 @@ An experimental avionics suite: a ground proximity warning computer, a cockpit p
 - Removed the GPWS Computer, which now loads as the Avionics Computer and keeps only its sensitivity.
 - Removed GPWS profiles, modes and custom alert rules.
 - Removed the `gpws` CC:Tweaked peripheral; programs must use `avionics_computer`.
+- Removed `cableCount` from the Network Bridge and Avionics Computer status in CC:Tweaked.
+- Removed the experimental Avionics Cable block; link devices with the Avionics Wire instead. Cables already placed in a world disappear when it loads.
 
 ## [0.1.0] - 2026-10-25
 

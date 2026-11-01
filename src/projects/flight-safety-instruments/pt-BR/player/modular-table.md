@@ -4,10 +4,6 @@ title: Modular Table
 
 # Modular Table
 
-::: warning Experimental
-A Modular Table e seus módulos são conteúdo Experimental. Podem ser fabricados, mas o comportamento pode mudar.
-:::
-
 ![Uma Modular Table com um módulo FMS, uma lâmpada vermelha acesa, uma lâmpada âmbar e um buzzer](../../assets/modular-table.png)
 
 A Modular Table (no jogo em português, Base da Mesa Modular) é o painel do cockpit. É uma placa fina de latão e madeira com um grid de 3 × 3 células. Nas células você instala **módulos**: lâmpadas de alerta, um buzzer e o Flight Management System (FMS). As lâmpadas e o buzzer mostram os alertas do [Avionics Computer](avionics-computer).

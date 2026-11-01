@@ -4,10 +4,6 @@ title: Avionics Computer and GPWS
 
 # Avionics Computer and GPWS
 
-::: warning Experimental
-The Avionics Computer is Experimental content added in 0.2.0. It can be crafted, but its behavior may change.
-:::
-
 ![Avionics Computer in normal operation (left) and in a warning (right)](../../assets/avionics-computer.png)
 
 The Avionics Computer is the heart of a craft. It reads every sensor on its network, gives each one a role, and runs a **GPWS** (Ground Proximity Warning System) on those readings. It warns you about terrain ahead, a fast descent, flying too low or banking too steeply. It is also the [Computer Craft](computer-craft#avionics-computer-api) entry point for the whole network.

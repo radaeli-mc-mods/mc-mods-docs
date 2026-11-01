@@ -25,7 +25,8 @@ Avionics sensors and CC:Tweaked integrations for Create Aeronautics.
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge
-- **Guides:** sensors, avionics, wiring, and Computer Craft
+- **Version:** 0.3.0
+- **Guides:** sensors, avionics, wiring, Ponder tutorials, configuration, and Computer Craft
 
 [Open Fly by Instruments documentation](/en/mods/flight-safety-instruments/)
 

@@ -18,7 +18,7 @@ Create Aeronautics is bundled with the mod. Install Fly by Instruments and its r
 
 Craft the sensors, place them in your craft, and connect redstone components or Create Redstone Links. Open [Sensors](sensors) for placement, block controls, and output configuration.
 
-To give the craft a GPWS, place an [Avionics Computer](avionics-computer), connect it and the sensors with the [Avionics Wire](avionics-network), and show its alerts on a [Modular Table](modular-table) with lamps and buzzers. These blocks are Experimental: they can be crafted, but they may still change between versions.
+To give the craft a GPWS, place an [Avionics Computer](avionics-computer), connect it and the sensors with the [Avionics Wire](avionics-network), and show its alerts on a [Modular Table](modular-table) with lamps and buzzers.
 
 Hold **Shift** over any block or module in your inventory for a short summary of what it does and how to use it, in the same style as Create's tooltips.
 
