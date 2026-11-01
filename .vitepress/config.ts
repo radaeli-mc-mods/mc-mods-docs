@@ -52,6 +52,7 @@ export default defineConfig({
               { text: 'Project catalog', link: '/en/mods/' },
               { text: 'R-Ui Lib', link: '/en/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/en/mods/fly-by-instruments/' },
+              { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/en/mods/sophisticated-backpack-is-addon/' }
             ]
@@ -91,6 +92,17 @@ export default defineConfig({
               { text: 'Configuration', link: '/en/mods/fly-by-instruments/player/configuration' }
             ] },
             { text: 'For developers', items: [{ text: 'Development setup', link: '/en/mods/fly-by-instruments/technical/development' }] }
+          ],
+          '/en/mods/copycat-replace/': [
+            { text: 'Create: Copycat Replace! - 0.2.0', items: [
+              { text: 'Overview', link: '/en/mods/copycat-replace/' },
+              { text: 'Changelog', link: '/en/mods/copycat-replace/changelog' }
+            ] },
+            { text: 'For players', items: [
+              { text: 'Install and use', link: '/en/mods/copycat-replace/player/' },
+              { text: 'Connected materials', link: '/en/mods/copycat-replace/player/connected-materials' },
+              { text: 'Configuration', link: '/en/mods/copycat-replace/player/configuration' }
+            ] }
           ],
           '/en/mods/hotbar-locker/': [
             { text: 'Hotbar Locker - 0.4.0', items: [
@@ -132,6 +144,7 @@ export default defineConfig({
               { text: 'Catálogo de projetos', link: '/pt-BR/mods/' },
               { text: 'R-Ui Lib', link: '/pt-BR/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/pt-BR/mods/fly-by-instruments/' },
+              { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
             ]
@@ -171,6 +184,17 @@ export default defineConfig({
               { text: 'Configurações', link: '/pt-BR/mods/fly-by-instruments/player/configuration' }
             ] },
             { text: 'Para desenvolvedores', items: [{ text: 'Ambiente de desenvolvimento', link: '/pt-BR/mods/fly-by-instruments/technical/development' }] }
+          ],
+          '/pt-BR/mods/copycat-replace/': [
+            { text: 'Create: Copycat Replace! - 0.2.0', items: [
+              { text: 'Visão geral', link: '/pt-BR/mods/copycat-replace/' },
+              { text: 'Changelog', link: '/pt-BR/mods/copycat-replace/changelog' }
+            ] },
+            { text: 'Para jogadores', items: [
+              { text: 'Instalação e uso', link: '/pt-BR/mods/copycat-replace/player/' },
+              { text: 'Materiais conectados', link: '/pt-BR/mods/copycat-replace/player/connected-materials' },
+              { text: 'Configurações', link: '/pt-BR/mods/copycat-replace/player/configuration' }
+            ] }
           ],
           '/pt-BR/mods/hotbar-locker/': [
             { text: 'Hotbar Locker - 0.4.0', items: [

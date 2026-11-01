@@ -44,6 +44,7 @@ const digitalStorageExpansionPages = [
   'player/upgrades.md',
   'player/configuration.md'
 ]
+const copycatReplacePages = ['index.md', 'changelog.md', 'player/index.md', 'player/connected-materials.md', 'player/configuration.md']
 const failures = []
 
 for (const locale of locales) {
@@ -87,6 +88,13 @@ for (const locale of locales) {
   }
 }
 
+for (const locale of locales) {
+  for (const page of copycatReplacePages) {
+    const path = join(sourceRoot, 'projects', 'copycat-replace', locale, page)
+    if (!existsSync(path)) failures.push(`Missing ${locale} Copycat Replace page: ${relative(root, path)}`)
+  }
+}
+
 const config = readFileSync(join(root, '.vitepress', 'config.ts'), 'utf8')
 if (!config.includes("source.match(/^projects\\/([^/]+)\\/(en|pt-BR)\\/(.+)$/)")) {
   failures.push('VitePress project rewrite does not match projects/<slug>/<locale>/... source paths.')
@@ -98,6 +106,12 @@ for (const locale of locales) {
   if (!config.includes(`'/${locale}/mods/fly-by-instruments/player/sensors'`)) failures.push(`Missing ${locale} sensor player guide navigation.`)
   if (!config.includes(`'/${locale}/mods/hotbar-locker/`)) failures.push(`Missing ${locale} Hotbar Locker navigation or sidebar.`)
   if (!config.includes(`'/${locale}/mods/sophisticated-backpack-is-addon/`)) failures.push(`Missing ${locale} Digital Storage Expansion navigation or sidebar.`)
+}
+
+for (const locale of locales) {
+  for (const page of ['', 'changelog', 'player/', 'player/connected-materials', 'player/configuration']) {
+    if (!config.includes(`'/${locale}/mods/copycat-replace/${page}'`)) failures.push(`Missing ${locale} Copycat Replace navigation for ${page}.`)
+  }
 }
 
 const manifest = JSON.parse(readFileSync(join(root, 'catalog', 'projects.json'), 'utf8'))
@@ -122,7 +136,7 @@ for (const project of manifest.projects.filter((entry) => entry.documentedVersio
     }
   }
 }
-for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'sophisticated-backpack-is-addon']) {
+for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'sophisticated-backpack-is-addon', 'copycat-replace']) {
   for (const locale of locales) {
     const changelog = join(sourceRoot, 'projects', slug, locale, 'changelog.md')
     if (existsSync(changelog) && !/^## \[\d+\.\d+\.\d+\]/m.test(readFileSync(changelog, 'utf8'))) {
@@ -201,5 +215,5 @@ if (failures.length) {
   console.error(failures.map((failure) => `- ${failure}`).join('\n'))
   process.exitCode = 1
 } else {
-  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, project routes, navigation, and local links.`)
+  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, project routes, navigation, and local links.`)
 }

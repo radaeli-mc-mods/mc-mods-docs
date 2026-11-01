@@ -48,3 +48,13 @@ Connect Sophisticated Backpacks upgrades to AE2, Refined Storage, Tom's Simple S
 - **For players:** linking, filters, and a catalog of eight upgrades
 
 [Open Digital Storage Expansion documentation](/en/mods/sophisticated-backpack-is-addon/index.md)
+
+## Create: Copycat Replace!
+
+Swap Copycat materials directly or apply, replace, and remove matching connected materials.
+
+- **Minecraft:** 1.20.1 and 1.21.1
+- **Loaders:** Forge for 1.20.1; NeoForge for 1.21.1
+- **Guides:** installation, connected materials, and configuration
+
+[Open Create: Copycat Replace! documentation](/en/mods/copycat-replace/)
