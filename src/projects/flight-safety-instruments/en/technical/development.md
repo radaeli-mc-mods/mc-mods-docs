@@ -16,3 +16,9 @@ The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Dev
 ```
 
 The source repository's [development guide](https://github.com/radaelilucca/mc-fly-by-instruments/blob/main/docs/development.md) documents dependency JAR configuration, GameTest tasks, and release scope. Start from the [mod source](https://github.com/radaelilucca/mc-fly-by-instruments).
+
+## Ponder development
+
+The ordinary development client loads PonderJS, KubeJS and Rhino from run/mods. Keep copies in libs for compilation and isolated validation; run the normal client without -PponderTutorials to avoid duplicate mods. Place the supplied versions in libs or set ponderjs_jar, kubejs_jar and rhino_jar. The tutorial integration remains optional for players; see [Ponder tutorials](../player/ponder). The scripts load directly from the mod resources.
+
+The source guide docs/ponder-development.md covers the isolated client harness (runPonderValidationClient -PponderTutorials -PponderValidation), dependency absence checks and dedicated GameTest gate (runPonderValidationServer -PponderServerValidation). Validation harnesses are excluded from normal JARs.

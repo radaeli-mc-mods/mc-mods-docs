@@ -45,3 +45,7 @@ Todos os blocos estão na aba criativa **Aeronautics: Fly by Instruments**. Todo
 ## Computadores
 
 Todos os recursos de computador estão no guia [Computer Craft](computer-craft): conecte um computador e leia sensores ou peripherals aviônicos com Lua.
+
+## Tutoriais no jogo
+
+Veja [Tutoriais Ponder](ponder) para as aulas animadas opcionais e [Configurações](configuration) para os ajustes do servidor.

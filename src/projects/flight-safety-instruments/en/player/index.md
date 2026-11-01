@@ -45,3 +45,7 @@ All blocks are in the **Aeronautics: Fly by Instruments** creative tab. Every bl
 ## Computers
 
 Every computer feature is in the [Computer Craft guide](computer-craft): connect a computer and read sensors or avionics peripherals with Lua.
+
+## In-game tutorials
+
+See [Ponder tutorials](ponder) for optional animated lessons and [Configuration](configuration) for server settings.

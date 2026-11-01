@@ -82,6 +82,8 @@ export default defineConfig({
             ] },
             { text: 'For players', items: [
               { text: 'Install and use', link: '/en/mods/flight-safety-instruments/player/' },
+              { text: 'Ponder tutorials', link: '/en/mods/flight-safety-instruments/player/ponder' },
+              { text: 'Configuration', link: '/en/mods/flight-safety-instruments/player/configuration' },
               { text: 'Sensors', link: '/en/mods/flight-safety-instruments/player/sensors' },
               { text: 'Avionics Computer and GPWS', link: '/en/mods/flight-safety-instruments/player/avionics-computer' },
               { text: 'Modular Table', link: '/en/mods/flight-safety-instruments/player/modular-table' },
@@ -160,6 +162,8 @@ export default defineConfig({
             ] },
             { text: 'Para jogadores', items: [
               { text: 'Instalação e uso', link: '/pt-BR/mods/flight-safety-instruments/player/' },
+              { text: 'Tutoriais Ponder', link: '/pt-BR/mods/flight-safety-instruments/player/ponder' },
+              { text: 'Configurações', link: '/pt-BR/mods/flight-safety-instruments/player/configuration' },
               { text: 'Sensors', link: '/pt-BR/mods/flight-safety-instruments/player/sensors' },
               { text: 'Avionics Computer e GPWS', link: '/pt-BR/mods/flight-safety-instruments/player/avionics-computer' },
               { text: 'Modular Table', link: '/pt-BR/mods/flight-safety-instruments/player/modular-table' },

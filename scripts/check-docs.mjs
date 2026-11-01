@@ -24,6 +24,8 @@ const flightSafetyPages = [
   'player/avionics-computer.md',
   'player/modular-table.md',
   'player/avionics-network.md',
+  'player/ponder.md',
+  'player/configuration.md',
   'player/computer-craft.md',
   'technical/development.md'
 ]
