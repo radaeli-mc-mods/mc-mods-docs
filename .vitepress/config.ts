@@ -115,7 +115,7 @@ export default defineConfig({
             ] }
           ],
           '/en/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.0', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.1', items: [
               { text: 'Overview', link: '/en/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/en/mods/sophisticated-backpack-is-addon/changelog' }
             ] },
@@ -207,7 +207,7 @@ export default defineConfig({
             ] }
           ],
           '/pt-BR/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.0', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.1', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/pt-BR/mods/sophisticated-backpack-is-addon/changelog' }
             ] },

@@ -11,7 +11,7 @@ Connect Sophisticated Backpacks to an existing digital storage network. The mod 
 
 Each upgrade links to one network endpoint and follows that network's range and access rules. Item upgrades work with all four networks where supported; Remote Pump supports fluids with AE2 and Refined Storage on both loaders, and SCC on NeoForge. Tom's Simple Storage is item-only.
 
-**Documented version:** 0.4.0
+**Documented version:** 0.4.1
 
 **Minecraft:** 1.20.1 (Forge) and 1.21.1 (NeoForge)
 
