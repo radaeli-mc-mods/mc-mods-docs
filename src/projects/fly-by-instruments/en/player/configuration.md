@@ -4,7 +4,7 @@ title: Configuration
 
 # Configuration
 
-This reference applies to Fly by Instruments on Minecraft 1.21.1 / NeoForge.
+This reference applies to Aeronautics: Fly by Instruments on Minecraft 1.21.1 / NeoForge.
 
 ## aeronautics_fly_by_instruments-server.toml
 

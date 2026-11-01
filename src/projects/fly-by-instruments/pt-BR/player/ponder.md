@@ -4,7 +4,7 @@ title: Tutoriais Ponder
 
 # Tutoriais Ponder
 
-Instale **PonderJS 1.21.1-2.4.0**, **KubeJS 2101.7.2-build.377** e **Rhino 2101.2.7-build.81** no cliente para habilitar os tutoriais opcionais. O mod funciona sem eles. As cenas acompanham Fly by Instruments; não é preciso instalar scripts.
+Instale **PonderJS 1.21.1-2.4.0** no cliente para habilitar os tutoriais opcionais. O mod funciona sem PonderJS. As cenas acompanham Aeronautics: Fly by Instruments; não é preciso instalar scripts.
 
 Passe o mouse sobre um item compatível no inventário e segure a tecla **Ponder** indicada pelo Create (W por padrão). Escolha uma cena e use os controles de pausa, repetição e capítulos. Mude o idioma do Minecraft para alternar entre inglês e português brasileiro. As instruções de Wiring View exibem a tecla configurada.
 
@@ -30,4 +30,4 @@ Os dioramas ilustram sensores e alertas com demonstrações controladas. Eles n�
 
 ## Se a indicação de Ponder não aparecer
 
-Confira se os três mods opcionais estão instalados para Minecraft 1.21.1 / NeoForge, reinicie o cliente e passe o mouse sobre um dos itens da lista. A configuração dos Controles do Create determina a tecla de Ponder.
+Confira se o PonderJS está instalado para Minecraft 1.21.1 / NeoForge, reinicie o cliente e passe o mouse sobre um dos itens da lista. A configuração dos Controles do Create determina a tecla de Ponder.

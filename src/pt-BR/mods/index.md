@@ -18,7 +18,7 @@ Uma biblioteca de interface client-side para outros mods de Minecraft.
 
 [Abrir a documentação da R-Ui Lib](/pt-BR/mods/r-ui-lib/index.md)
 
-## Fly by Instruments
+## Aeronautics: Fly by Instruments
 
 Sensores aviônicos e integrações técnicas CC:Tweaked para Create Aeronautics.
 
@@ -27,7 +27,7 @@ Sensores aviônicos e integrações técnicas CC:Tweaked para Create Aeronautics
 - **Versão:** 0.3.0
 - **Para jogadores:** sensores, o Avionics Computer e seu GPWS, a Modular Table, o Avionics Wire, tutoriais Ponder, configurações e Computer Craft
 
-[Abrir a documentação de Fly by Instruments](/pt-BR/mods/flight-safety-instruments/index.md)
+[Abrir a documentação de Aeronautics: Fly by Instruments](/pt-BR/mods/fly-by-instruments/index.md)
 
 ## Hotbar Locker
 

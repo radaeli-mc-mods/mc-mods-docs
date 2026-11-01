@@ -1,16 +1,15 @@
 ---
-title: Fly by Instruments changelog
-description: Release history for Fly by Instruments.
+title: "Aeronautics: Fly by Instruments changelog"
+description: "Release history for Aeronautics: Fly by Instruments."
 ---
 
-# Fly by Instruments changelog
+# Aeronautics: Fly by Instruments changelog
 
 ## [0.3.0] - 2026-11-01
 
 ### Added
 
 - Added eleven Ponder tutorials in English and Brazilian Portuguese for sensors, wiring, cockpit panels and FMS navigation.
-- Added optional PonderJS, KubeJS and Rhino support for the in-game tutorials.
 
 ### Changed
 

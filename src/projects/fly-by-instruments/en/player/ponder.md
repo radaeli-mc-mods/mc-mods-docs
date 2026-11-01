@@ -4,7 +4,7 @@ title: Ponder tutorials
 
 # Ponder tutorials
 
-Install **PonderJS 1.21.1-2.4.0**, **KubeJS 2101.7.2-build.377** and **Rhino 2101.2.7-build.81** on your client to enable the optional tutorials. The mod works without them. The scenes come with Fly by Instruments; no script installation is needed.
+Install **PonderJS 1.21.1-2.4.0** on your client to enable the optional tutorials. The mod works without PonderJS. The scenes come with Aeronautics: Fly by Instruments; no script installation is needed.
 
 Hover a supported item in your inventory and hold the **Ponder** key shown by Create (W by default). Select a scene and use Ponder’s pause, replay and chapter controls. Change Minecraft’s language to switch between English and Brazilian Portuguese. Wiring View instructions show your configured key.
 
@@ -30,4 +30,4 @@ The dioramas illustrate sensor and alert behaviour with controlled demonstration
 
 ## If the Ponder prompt is missing
 
-Check that all three optional mods are installed for Minecraft 1.21.1 / NeoForge, restart the client, and hover one of the listed items. Create’s Controls settings determine the Ponder key.
+Check that PonderJS is installed for Minecraft 1.21.1 / NeoForge, restart the client, and hover one of the listed items. Create’s Controls settings determine the Ponder key.

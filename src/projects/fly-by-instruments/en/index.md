@@ -1,15 +1,15 @@
 ---
-title: Fly by Instruments
+title: "Aeronautics: Fly by Instruments"
 description: Avionics sensors, redstone outputs, and CC:Tweaked interfaces for Create Aeronautics.
 ---
 
-# Fly by Instruments
+# Aeronautics: Fly by Instruments
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1766429.svg)](https://www.curseforge.com/minecraft/mc-mods/aeronautics-fly-by-instruments)
 
-Fly by Instruments adds avionics blocks for Create Aeronautics ships. Radar Altimeters and Terrain Scanners measure the world around a craft and expose readings through redstone and CC:Tweaked. The avionics suite adds the Avionics Computer with its GPWS, a cockpit Modular Table with lamps, buzzers and an FMS, and the Avionics Wire that links them.
+Aeronautics: Fly by Instruments adds avionics blocks for Create Aeronautics ships. Radar Altimeters and Terrain Scanners measure the world around a craft and expose readings through redstone and CC:Tweaked. The avionics suite adds the Avionics Computer with its GPWS, a cockpit Modular Table with lamps, buzzers and an FMS, and the Avionics Wire that links them.
 
-**Documentation reflects Fly by Instruments 0.3.0** · Minecraft 1.21.1 · NeoForge.
+**Documentation reflects Aeronautics: Fly by Instruments 0.3.0** · Minecraft 1.21.1 · NeoForge.
 
 ![Radar Altimeter model](../assets/radar-altimeter.png)
 

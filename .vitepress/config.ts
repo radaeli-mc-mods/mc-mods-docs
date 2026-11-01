@@ -51,7 +51,7 @@ export default defineConfig({
             items: [
               { text: 'Project catalog', link: '/en/mods/' },
               { text: 'R-Ui Lib', link: '/en/mods/r-ui-lib/' },
-              { text: 'Fly by Instruments', link: '/en/mods/flight-safety-instruments/' },
+              { text: 'Aeronautics: Fly by Instruments', link: '/en/mods/fly-by-instruments/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/en/mods/sophisticated-backpack-is-addon/' }
             ]
@@ -75,22 +75,22 @@ export default defineConfig({
               ]
             },
           ],
-          '/en/mods/flight-safety-instruments/': [
-            { text: 'Fly by Instruments - 0.3.0', items: [
-              { text: 'Overview', link: '/en/mods/flight-safety-instruments/' },
-              { text: 'Changelog', link: '/en/mods/flight-safety-instruments/changelog' }
+          '/en/mods/fly-by-instruments/': [
+            { text: 'Aeronautics: Fly by Instruments - 0.3.0', items: [
+              { text: 'Overview', link: '/en/mods/fly-by-instruments/' },
+              { text: 'Changelog', link: '/en/mods/fly-by-instruments/changelog' }
             ] },
             { text: 'For players', items: [
-              { text: 'Install and use', link: '/en/mods/flight-safety-instruments/player/' },
-              { text: 'Ponder tutorials', link: '/en/mods/flight-safety-instruments/player/ponder' },
-              { text: 'Configuration', link: '/en/mods/flight-safety-instruments/player/configuration' },
-              { text: 'Sensors', link: '/en/mods/flight-safety-instruments/player/sensors' },
-              { text: 'Avionics Computer and GPWS', link: '/en/mods/flight-safety-instruments/player/avionics-computer' },
-              { text: 'Modular Table', link: '/en/mods/flight-safety-instruments/player/modular-table' },
-              { text: 'Avionics Wire', link: '/en/mods/flight-safety-instruments/player/avionics-network' },
-              { text: 'Computer Craft', link: '/en/mods/flight-safety-instruments/player/computer-craft' }
+              { text: 'Install and use', link: '/en/mods/fly-by-instruments/player/' },
+              { text: 'Ponder tutorials', link: '/en/mods/fly-by-instruments/player/ponder' },
+              { text: 'Sensors', link: '/en/mods/fly-by-instruments/player/sensors' },
+              { text: 'Avionics Computer and GPWS', link: '/en/mods/fly-by-instruments/player/avionics-computer' },
+              { text: 'Modular Table', link: '/en/mods/fly-by-instruments/player/modular-table' },
+              { text: 'Avionics Wire', link: '/en/mods/fly-by-instruments/player/avionics-network' },
+              { text: 'Computer Craft', link: '/en/mods/fly-by-instruments/player/computer-craft' },
+              { text: 'Configuration', link: '/en/mods/fly-by-instruments/player/configuration' }
             ] },
-            { text: 'For developers', items: [{ text: 'Development setup', link: '/en/mods/flight-safety-instruments/technical/development' }] }
+            { text: 'For developers', items: [{ text: 'Development setup', link: '/en/mods/fly-by-instruments/technical/development' }] }
           ],
           '/en/mods/hotbar-locker/': [
             { text: 'Hotbar Locker - 0.4.0', items: [
@@ -131,7 +131,7 @@ export default defineConfig({
             items: [
               { text: 'Catálogo de projetos', link: '/pt-BR/mods/' },
               { text: 'R-Ui Lib', link: '/pt-BR/mods/r-ui-lib/' },
-              { text: 'Fly by Instruments', link: '/pt-BR/mods/flight-safety-instruments/' },
+              { text: 'Aeronautics: Fly by Instruments', link: '/pt-BR/mods/fly-by-instruments/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
             ]
@@ -155,22 +155,22 @@ export default defineConfig({
               ]
             },
           ],
-          '/pt-BR/mods/flight-safety-instruments/': [
-            { text: 'Fly by Instruments - 0.3.0', items: [
-              { text: 'Visão geral', link: '/pt-BR/mods/flight-safety-instruments/' },
-              { text: 'Changelog', link: '/pt-BR/mods/flight-safety-instruments/changelog' }
+          '/pt-BR/mods/fly-by-instruments/': [
+            { text: 'Aeronautics: Fly by Instruments - 0.3.0', items: [
+              { text: 'Visão geral', link: '/pt-BR/mods/fly-by-instruments/' },
+              { text: 'Changelog', link: '/pt-BR/mods/fly-by-instruments/changelog' }
             ] },
             { text: 'Para jogadores', items: [
-              { text: 'Instalação e uso', link: '/pt-BR/mods/flight-safety-instruments/player/' },
-              { text: 'Tutoriais Ponder', link: '/pt-BR/mods/flight-safety-instruments/player/ponder' },
-              { text: 'Configurações', link: '/pt-BR/mods/flight-safety-instruments/player/configuration' },
-              { text: 'Sensors', link: '/pt-BR/mods/flight-safety-instruments/player/sensors' },
-              { text: 'Avionics Computer e GPWS', link: '/pt-BR/mods/flight-safety-instruments/player/avionics-computer' },
-              { text: 'Modular Table', link: '/pt-BR/mods/flight-safety-instruments/player/modular-table' },
-              { text: 'Avionics Wire', link: '/pt-BR/mods/flight-safety-instruments/player/avionics-network' },
-              { text: 'Computer Craft', link: '/pt-BR/mods/flight-safety-instruments/player/computer-craft' }
+              { text: 'Instalação e uso', link: '/pt-BR/mods/fly-by-instruments/player/' },
+              { text: 'Tutoriais Ponder', link: '/pt-BR/mods/fly-by-instruments/player/ponder' },
+              { text: 'Sensors', link: '/pt-BR/mods/fly-by-instruments/player/sensors' },
+              { text: 'Avionics Computer e GPWS', link: '/pt-BR/mods/fly-by-instruments/player/avionics-computer' },
+              { text: 'Modular Table', link: '/pt-BR/mods/fly-by-instruments/player/modular-table' },
+              { text: 'Avionics Wire', link: '/pt-BR/mods/fly-by-instruments/player/avionics-network' },
+              { text: 'Computer Craft', link: '/pt-BR/mods/fly-by-instruments/player/computer-craft' },
+              { text: 'Configurações', link: '/pt-BR/mods/fly-by-instruments/player/configuration' }
             ] },
-            { text: 'Para desenvolvedores', items: [{ text: 'Ambiente de desenvolvimento', link: '/pt-BR/mods/flight-safety-instruments/technical/development' }] }
+            { text: 'Para desenvolvedores', items: [{ text: 'Ambiente de desenvolvimento', link: '/pt-BR/mods/fly-by-instruments/technical/development' }] }
           ],
           '/pt-BR/mods/hotbar-locker/': [
             { text: 'Hotbar Locker - 0.4.0', items: [

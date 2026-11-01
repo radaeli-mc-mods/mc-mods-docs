@@ -1,16 +1,15 @@
 ---
-title: Changelog de Fly by Instruments
-description: Histórico de versões de Fly by Instruments.
+title: "Changelog de Aeronautics: Fly by Instruments"
+description: "Histórico de versões de Aeronautics: Fly by Instruments."
 ---
 
-# Changelog de Fly by Instruments
+# Changelog de Aeronautics: Fly by Instruments
 
 ## [0.3.0] - 2026-11-01
 
 ### Adicionado
 
 - Adicionados onze tutoriais Ponder em inglês e português brasileiro para sensores, fios, painéis de cockpit e navegação FMS.
-- Adicionado suporte opcional a PonderJS, KubeJS e Rhino para os tutoriais dentro do jogo.
 
 ### Alterado
 

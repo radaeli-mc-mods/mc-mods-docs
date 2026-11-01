@@ -12,7 +12,7 @@ title: Instalação e uso
 - CC:Tweaked 1.120.0 ou mais recente
 - R-Ui Lib 0.8.0 ou mais recente
 
-Create Aeronautics vem incluído no mod. Instale Fly by Instruments e suas dependências necessárias no cliente e no servidor.
+Create Aeronautics vem incluído no mod. Instale Aeronautics: Fly by Instruments e suas dependências necessárias no cliente e no servidor.
 
 ## Comece a jogar
 
