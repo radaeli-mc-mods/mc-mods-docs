@@ -7,9 +7,9 @@ description: Troque materiais de Copycats diretamente ou altere grupos conectado
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1662789.svg)](https://www.curseforge.com/minecraft/mc-mods/create-copycat-replace)
 
-Troque o material de um Copycat diretamente com uma **Create Wrench** e um bloco nas mãos, em qualquer ordem. Segure **Left Alt** para aplicar, substituir ou remover materiais em Copycats do mesmo tipo conectados por faces. Formatos compatíveis do Create: Copycats+ incluem blocos multipartes. O addon não adiciona blocos nem itens.
+Troque o material de um Copycat diretamente com uma **Create Wrench** e um bloco nas mãos, em qualquer ordem. Segure **Left Alt** para aplicar, substituir ou remover materiais em Copycats conectados por faces no modo Conectado. Segure a tecla e role para escolher Conectado, Plano ou Todos os tipos. Ações em grupo podem usar materiais idênticos do inventário principal. Formatos compatíveis do Create: Copycats+ incluem blocos multipartes. O addon não adiciona blocos nem itens.
 
-**Versão documentada do código: 0.2.0.**
+**Versão documentada do código: 0.3.0.**
 
 | Minecraft | Loader | Create | Copycats+ opcional |
 | --- | --- | --- | --- |

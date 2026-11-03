@@ -18,7 +18,7 @@ description: Requisitos, instalação e primeira troca de material de um Copycat
 3. Segure uma **Create Wrench** em uma mão e o bloco desejado na outra.
 4. Clique com o botão direito no Copycat ou na parte escolhida. O novo material substitui o anterior diretamente.
 
-As duas ordens de mãos funcionam. No Survival, a ação consome o material novo necessário e devolve o item pago pelo material anterior; com inventário cheio, a devolução pode cair no mundo. Blocos multipartes preservam materiais ainda compartilhados por outras partes. Creative não consome material. Material inválido deixa o Copycat intacto e consome a interação para impedir rotação ou desmontagem pela wrench.
+As duas ordens de mãos funcionam. No Survival, a ação consome o material novo necessário e devolve o item pago pelo material anterior; com inventário cheio, a devolução pode cair no mundo. Blocos multipartes preservam materiais ainda compartilhados por outras partes. Creative não consome material. Material inválido mostra uma mensagem curta acima da hotbar, deixa o Copycat intacto e consome a interação para impedir rotação ou desmontagem pela wrench.
 
 Segure **Sneak** para usar a ação normal da wrench do Create.
 

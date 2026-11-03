@@ -55,6 +55,7 @@ Troque materiais de Copycats diretamente ou aplique, substitua e remova materiai
 
 - **Minecraft:** 1.20.1 e 1.21.1
 - **Loaders:** Forge para 1.20.1; NeoForge para 1.21.1
-- **Guias:** instalação, materiais conectados e configurações
+- **Versão:** 0.3.0
+- **Guias:** instalação, modos de seleção, materiais do inventário e configurações
 
 [Abrir a documentação do Create: Copycat Replace!](/pt-BR/mods/copycat-replace/)

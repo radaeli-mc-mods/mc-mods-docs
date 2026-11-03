@@ -7,9 +7,9 @@ description: Swap Copycat materials directly or update connected groups with a C
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1662789.svg)](https://www.curseforge.com/minecraft/mc-mods/create-copycat-replace)
 
-Swap a Copycat's material directly with a **Create Wrench** and a block in your hands. Use either hand order, or hold **Left Alt** to apply, replace, or remove materials across matching face-connected Copycats. Compatible Create: Copycats+ shapes include multi-part blocks. No new blocks or items are added.
+Swap a Copycat's material directly with a **Create Wrench** and a block in your hands. Use either hand order, or hold **Left Alt** to apply, replace, or remove materials across face-connected Copycats in Connected mode. Hold the key and scroll to choose Connected, Plane or All types. Group actions can use identical materials from your main inventory. Compatible Create: Copycats+ shapes include multi-part blocks. No new blocks or items are added.
 
-**Documented source version: 0.2.0.**
+**Documented source version: 0.3.0.**
 
 | Minecraft | Loader | Create | Optional Copycats+ |
 | --- | --- | --- | --- |

@@ -94,7 +94,7 @@ export default defineConfig({
             { text: 'For developers', items: [{ text: 'Development setup', link: '/en/mods/fly-by-instruments/technical/development' }] }
           ],
           '/en/mods/copycat-replace/': [
-            { text: 'Create: Copycat Replace! - 0.2.0', items: [
+            { text: 'Create: Copycat Replace! - 0.3.0', items: [
               { text: 'Overview', link: '/en/mods/copycat-replace/' },
               { text: 'Changelog', link: '/en/mods/copycat-replace/changelog' }
             ] },
@@ -186,7 +186,7 @@ export default defineConfig({
             { text: 'Para desenvolvedores', items: [{ text: 'Ambiente de desenvolvimento', link: '/pt-BR/mods/fly-by-instruments/technical/development' }] }
           ],
           '/pt-BR/mods/copycat-replace/': [
-            { text: 'Create: Copycat Replace! - 0.2.0', items: [
+            { text: 'Create: Copycat Replace! - 0.3.0', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Changelog', link: '/pt-BR/mods/copycat-replace/changelog' }
             ] },

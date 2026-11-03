@@ -18,7 +18,7 @@ description: Requirements, installation, and your first Copycat material replace
 3. Hold a **Create Wrench** in one hand and the desired block material in the other.
 4. Right-click the Copycat or its selected part. The new material replaces the previous one directly.
 
-Either hand order works. In Survival, the action consumes the required new material and returns the old paid material; a full inventory can cause the refund to drop into the world. Multi-part blocks preserve material shared by their other parts. Creative does not consume material. An invalid material leaves the Copycat intact and consumes the interaction so the Wrench does not rotate or dismantle it.
+Either hand order works. In Survival, the action consumes the required new material and returns the old paid material; a full inventory can cause the refund to drop into the world. Multi-part blocks preserve material shared by their other parts. Creative does not consume material. An invalid material shows a short message above the hotbar, leaves the Copycat intact and consumes the interaction so the Wrench does not rotate or dismantle it.
 
 Hold **Sneak** to use Create's normal Wrench behavior instead.
 
