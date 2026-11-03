@@ -7,6 +7,12 @@ description: Histórico de versões de Digital Storage Expansion.
 
 Fonte canônica: [CHANGELOG.md no GitHub](https://github.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/blob/main/CHANGELOG.md).
 
+## [0.4.1] - 2026-11-01
+
+### Corrigido
+
+- Corrigidas falhas de inicialização no Forge 1.20.1, inclusive em instalações apenas com os mods obrigatórios.
+
 ## [0.4.0] - 2026-10-31
 
 ### Alterado
@@ -17,7 +23,7 @@ Fonte canônica: [CHANGELOG.md no GitHub](https://github.com/radaelilucca/mc-sop
 
 ### Adicionado
 
-- Adicionado suporte ao SCC 1.5.3 para upgrades remotos no NeoForge 1.21.1.
+- Adicionado suporte ao Super Cool Calculator 1.5.3 para upgrades remotos no NeoForge 1.21.1.
 
 ### Corrigido
 

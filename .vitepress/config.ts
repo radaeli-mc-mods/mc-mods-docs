@@ -125,6 +125,9 @@ export default defineConfig({
               { text: 'Filters and source priority', link: '/en/mods/sophisticated-backpack-is-addon/player/filters' },
               { text: 'Upgrade catalog', link: '/en/mods/sophisticated-backpack-is-addon/player/upgrades' },
               { text: 'Configuration', link: '/en/mods/sophisticated-backpack-is-addon/player/configuration' }
+            ] },
+            { text: 'For developers', items: [
+              { text: 'Build and artifact checks', link: '/en/mods/sophisticated-backpack-is-addon/technical/development' }
             ] }
           ]
         },
@@ -217,6 +220,9 @@ export default defineConfig({
               { text: 'Filtros e prioridade de origem', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/filters' },
               { text: 'Catálogo de upgrades', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/upgrades' },
               { text: 'Configurações', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/configuration' }
+            ] },
+            { text: 'Para desenvolvedores', items: [
+              { text: 'Build e verificação do artefato', link: '/pt-BR/mods/sophisticated-backpack-is-addon/technical/development' }
             ] }
           ]
         },

@@ -36,6 +36,7 @@ const hotbarLockerPages = [
   'player/configuration.md'
 ]
 const digitalStorageExpansionPages = [
+  'technical/development.md',
   'index.md',
   'changelog.md',
   'player/index.md',
