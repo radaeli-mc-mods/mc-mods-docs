@@ -59,6 +59,13 @@ export default defineConfig({
           }
         ],
         sidebar: {
+          '/en/mods/roadweaver-tectonic3/': [
+            { text: 'RoadWeaver - 2.4.1-1.21.1', items: [{ text: 'Overview', link: '/en/mods/roadweaver-tectonic3/' }, { text: 'Changelog', link: '/en/mods/roadweaver-tectonic3/changelog' }] },
+            { text: 'For players', items: [
+              { text: 'Install and use', link: '/en/mods/roadweaver-tectonic3/player/' },
+              { text: 'Configuration', link: '/en/mods/roadweaver-tectonic3/player/configuration' }
+            ] }
+          ],
           '/en/mods/r-ui-lib/': [
             { text: 'R-Ui Lib - 0.8.0', items: [
               { text: 'Overview', link: '/en/mods/r-ui-lib/' },
@@ -154,6 +161,13 @@ export default defineConfig({
           }
         ],
         sidebar: {
+          '/pt-BR/mods/roadweaver-tectonic3/': [
+            { text: 'RoadWeaver - 2.4.1-1.21.1', items: [{ text: 'Visão geral', link: '/pt-BR/mods/roadweaver-tectonic3/' }, { text: 'Changelog', link: '/pt-BR/mods/roadweaver-tectonic3/changelog' }] },
+            { text: 'Para jogadores', items: [
+              { text: 'Instalar e usar', link: '/pt-BR/mods/roadweaver-tectonic3/player/' },
+              { text: 'Configurações', link: '/pt-BR/mods/roadweaver-tectonic3/player/configuration' }
+            ] }
+          ],
           '/pt-BR/mods/r-ui-lib/': [
             { text: 'R-Ui Lib - 0.8.0', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/r-ui-lib/' },

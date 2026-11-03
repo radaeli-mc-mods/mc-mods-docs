@@ -59,3 +59,13 @@ Swap Copycat materials directly or apply, replace, and remove matching connected
 - **Guides:** installation, selection modes, inventory materials, and configuration
 
 [Open Create: Copycat Replace! documentation](/en/mods/copycat-replace/)
+
+## RoadWeaver
+
+Roads between structures with Tectonic 3.0.28 terrain.
+
+- **Minecraft:** 1.21.1
+- **Loader:** NeoForge
+- **Version:** 2.4.1-1.21.1
+
+[Open fork documentation](/en/mods/roadweaver-tectonic3/)

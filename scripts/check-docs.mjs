@@ -212,9 +212,33 @@ function routePath(sourcePath) {
   return '/' + rewritten.replace(/(?:^|\/)index\.md$/, '/').replace(/\.md$/, '')
 }
 
+const roadweaverConfigBlocks = []
+for (const locale of locales) {
+  for (const page of ['index.md', 'player/index.md', 'player/configuration.md']) {
+    const path = join(sourceRoot, 'projects', 'roadweaver-tectonic3', locale, page)
+    if (!existsSync(path)) failures.push(`Missing ${locale} RoadWeaver page: ${relative(root, path)}`)
+  }
+  const path = join(sourceRoot, 'projects', 'roadweaver-tectonic3', locale, 'player/configuration.md')
+  if (!existsSync(path)) continue
+  const body = readFileSync(path, 'utf8')
+  try {
+    const blocks = [...body.matchAll(/```json\n([\s\S]*?)\n```/g)].map(match => JSON.parse(match[1]))
+    roadweaverConfigBlocks.push(JSON.stringify(blocks))
+    if (blocks.length !== 45) failures.push(`Expected full RoadWeaver defaults and 44 presets in ${locale}`)
+    for (const [group, fields] of Object.entries(blocks[0] ?? {})) {
+      for (const key of Object.keys(fields)) {
+        if (!body.includes('`' + group + '.' + key + '`')) failures.push(`Missing ${locale} RoadWeaver key: ${group}.${key}`)
+      }
+    }
+  } catch (error) {
+    failures.push(`Invalid ${locale} RoadWeaver configuration JSON: ${error.message}`)
+  }
+}
+if (new Set(roadweaverConfigBlocks).size > 1) failures.push('RoadWeaver translated configuration defaults differ')
+
 if (failures.length) {
   console.error(failures.map((failure) => `- ${failure}`).join('\n'))
   process.exitCode = 1
 } else {
-  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, project routes, navigation, and local links.`)
+  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, 3 translated RoadWeaver pages with configuration parity, project routes, navigation, and local links.`)
 }
