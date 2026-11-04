@@ -36,6 +36,16 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE ?? '/',
   srcDir: 'src',
   cleanUrls: true,
+  head: [
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-7K4NV92DSN' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7K4NV92DSN');
+    `]
+  ],
   rewrites: (source) => rewriteProjectPage(source) ?? source,
   locales: {
     root: {
