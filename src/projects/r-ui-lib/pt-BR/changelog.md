@@ -11,6 +11,7 @@ description: Histórico de versões da R-Ui Lib.
 
 - Adicionados botões de opção e grupos verticais com dicas, opções desabilitadas e navegação pelo teclado.
 - Adicionados steppers para números limitados e listas de opções, com setas, roda do mouse e teclado.
+- Adicionadas caixas compactas de informação que exibem dicas de ajuda.
 - Adicionadas tooltips posicionais, para que um componente possa exibir sua dica em apenas parte de sua área.
 
 ## [0.7.0] - 2026-10-26

@@ -167,6 +167,14 @@ Button reset = new Button(Component.literal("Redefinir"), this::resetSettings);
 reset.tooltip(Component.literal("Restaurar valores padrão"));
 ```
 
+### InfoBox
+
+Exiba um ícone compacto de ajuda com uma dica ao passar o cursor.
+
+```java
+InfoBox help = new InfoBox(Component.literal("Escolha um valor para esta opção"));
+```
+
 ## Escolhas e entrada
 
 ### Toggle

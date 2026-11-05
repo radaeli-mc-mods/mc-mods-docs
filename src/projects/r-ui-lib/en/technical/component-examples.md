@@ -167,6 +167,14 @@ Button reset = new Button(Component.literal("Reset"), this::resetSettings);
 reset.tooltip(Component.literal("Restore default values"));
 ```
 
+### InfoBox
+
+Show a compact help icon whose tooltip appears when the player hovers over it.
+
+```java
+InfoBox help = new InfoBox(Component.literal("Choose a value for this setting"));
+```
+
 ## Choice and input
 
 ### Toggle
