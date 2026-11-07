@@ -8,7 +8,7 @@ This guide is for people building or extending the mod. Player-facing CC:Tweaked
 
 ## Build environment
 
-The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Development also uses Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+, and R-Ui Lib 0.5.0+. Create Aeronautics is bundled in the mod; Create, Aeronautics, Sable, CC:Tweaked, and R-Ui Lib are local compile/runtime dependencies for development.
+The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Development also uses Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+, and R-Ui Lib 0.9.0+. Create Aeronautics is bundled in the mod; Create, Aeronautics, Sable, CC:Tweaked, and R-Ui Lib are local compile/runtime dependencies for development.
 
 ```powershell
 .\gradlew.bat build

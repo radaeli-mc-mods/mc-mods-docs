@@ -7,9 +7,9 @@ description: Sensores aviônicos, saídas de redstone e integração CC:Tweaked 
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1766429.svg)](https://www.curseforge.com/minecraft/mc-mods/aeronautics-fly-by-instruments)
 
-Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O conjunto aviônico acrescenta o Avionics Computer com seu GPWS, a Modular Table do cockpit com lâmpadas, buzzers e FMS, e o Avionics Wire que liga tudo.
+Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O Avionics Computer transforma as leituras em alertas GPWS, enquanto a Modular Table combina lâmpadas, buzzers e um FMS. Os instrumentos de atitude acrescentam um horizonte artificial experimental.
 
-**Documentação referente à versão 0.3.0 de Aeronautics: Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
+**Documentação referente à versão 0.4.0-beta.1 de Aeronautics: Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
 
 ![Modelo do Radar Altimeter](../assets/radar-altimeter.png)
 
@@ -18,13 +18,14 @@ Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create 
 - [Instalação e uso](player/)
 - [Sensors](player/sensors): Radar Altimeter, Terrain Scanner e Advanced Terrain Scanner
 - [Avionics Computer e GPWS](player/avionics-computer)
-- [Modular Table](player/modular-table): lâmpadas, buzzer e FMS
+- [Modular Table](player/modular-table): lâmpadas, buzzer, FMS e Attitude Indicator
 - [Avionics Wire](player/avionics-network): conectores, suportes e Wiring View
+- [Instrumentos de atitude](player/attitude-instruments): Attitude Reference Unit e Attitude Indicator
 - [Tutoriais Ponder](player/ponder)
 - [Configurações](player/configuration)
 - [Computer Craft](player/computer-craft)
 
-O conjunto aviônico pode ser fabricado. Apenas a Network Bridge permanece Experimental e exclusiva do criativo. Computer Craft reúne todas as instruções de CC:Tweaked e Lua em uma só página.
+A Network Bridge, a Attitude Reference Unit e o Attitude Indicator são Experimentais e exclusivos do criativo. Os outros blocos aviônicos podem ser fabricados. Computer Craft reúne as instruções de CC:Tweaked e Lua em uma só página.
 
 | | |
 | --- | --- |
@@ -34,5 +35,3 @@ O conjunto aviônico pode ser fabricado. Apenas a Network Bridge permanece Exper
 ## Changelog
 
 [Consultar notas de versão](./changelog)
-
-Todos os blocos, exceto a Avionics Network Bridge, têm receita. A Bridge permanece Experimental e exclusiva do criativo.

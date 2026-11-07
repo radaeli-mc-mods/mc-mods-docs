@@ -298,3 +298,35 @@ for _, device in ipairs(bridge.getConnectedDevices()) do
   print(device.type, device.x, device.y, device.z)
 end
 ```
+
+## API da Attitude Reference Unit
+
+O peripheral se chama attitude_reference_unit e publica eventos attitude_reading_changed. Os valores estão em graus, exceto verticalSpeed, em blocos por segundo.
+
+| Função | Resultado |
+| --- | --- |
+| getAttitude() | status, pitch, roll, heading e time |
+| getRates() | status, turnRate, verticalSpeed, slip e time |
+| getConfig() | nose, up, pitchOffset, rollOffset e damping |
+| setOrientation(nose, up) | Define direções perpendiculares das faces |
+| calibrateLevel() | Calibra pitch e roll; retorna false se indisponíveis ou fora do limite de 15° |
+| resetCalibration() | Apaga os ajustes de pitch e roll |
+| setDamping(mode) | Define off, light ou strong; retorna false para modo desconhecido |
+
+O rumo usa 0° no norte e aumenta no sentido horário. Pitch positivo é nariz para cima; roll positivo é asa direita para baixo. Callbacks recebem o nome da conexão e uma tabela com a leitura. Direções aceitas: north, south, east, west, up e down.
+```lua
+local unidade = peripheral.find("attitude_reference_unit")
+if not unidade then error("Attitude Reference Unit nao encontrada") end
+
+local atitude = unidade.getAttitude()
+if atitude.status == "valid" then
+  print(("Pitch %.1f°, roll %.1f°, rumo %.1f°"):format(
+    atitude.pitch, atitude.roll, atitude.heading))
+end
+
+local taxas = unidade.getRates()
+if taxas.status == "valid" then
+  print(("Curva %.1f°/s, velocidade vertical %.1f blocos/s, derrapagem %.1f°"):format(
+    taxas.turnRate, taxas.verticalSpeed, taxas.slip))
+end
+```

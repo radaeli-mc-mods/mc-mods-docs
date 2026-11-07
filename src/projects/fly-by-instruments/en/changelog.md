@@ -5,6 +5,19 @@ description: "Release history for Aeronautics: Fly by Instruments."
 
 # Aeronautics: Fly by Instruments changelog
 
+## [0.4.0-beta.1] - 2026-11-06
+
+### Added
+
+- Added the Attitude Reference Unit, a configurable aircraft instrument that measures pitch, roll, heading, turn rate, vertical speed and slip, with level calibration and optional damping.
+- Added CC:Tweaked and avionics network access to Attitude Reference Unit readings and settings.
+- Added the Experimental, creative-only Attitude Indicator for Modular Tables, displaying pitch and roll from a connected Attitude Reference Unit with an optional Radar Altimeter tape and source status.
+- Added three Ponder tutorials in English and Brazilian Portuguese for setting up and using the Attitude Reference Unit and Attitude Indicator.
+
+### Changed
+
+- The Avionics Computer uses a valid Attitude Reference Unit on the same aircraft for its bank warning, and falls back to its own orientation +
++## [0.3.0]
 ## [0.3.0] - 2026-11-01
 
 ### Added

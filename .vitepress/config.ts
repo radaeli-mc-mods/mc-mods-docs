@@ -94,13 +94,14 @@ export default defineConfig({
             },
           ],
           '/en/mods/fly-by-instruments/': [
-            { text: 'Aeronautics: Fly by Instruments - 0.3.0', items: [
+            { text: 'Aeronautics: Fly by Instruments - 0.4.0-beta.1', items: [
               { text: 'Overview', link: '/en/mods/fly-by-instruments/' },
               { text: 'Changelog', link: '/en/mods/fly-by-instruments/changelog' }
             ] },
             { text: 'For players', items: [
               { text: 'Install and use', link: '/en/mods/fly-by-instruments/player/' },
               { text: 'Ponder tutorials', link: '/en/mods/fly-by-instruments/player/ponder' },
+              { text: 'Attitude instruments', link: '/en/mods/fly-by-instruments/player/attitude-instruments' },
               { text: 'Sensors', link: '/en/mods/fly-by-instruments/player/sensors' },
               { text: 'Avionics Computer and GPWS', link: '/en/mods/fly-by-instruments/player/avionics-computer' },
               { text: 'Modular Table', link: '/en/mods/fly-by-instruments/player/modular-table' },
@@ -196,13 +197,14 @@ export default defineConfig({
             },
           ],
           '/pt-BR/mods/fly-by-instruments/': [
-            { text: 'Aeronautics: Fly by Instruments - 0.3.0', items: [
+            { text: 'Aeronautics: Fly by Instruments - 0.4.0-beta.1', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/fly-by-instruments/' },
               { text: 'Changelog', link: '/pt-BR/mods/fly-by-instruments/changelog' }
             ] },
             { text: 'Para jogadores', items: [
               { text: 'Instalação e uso', link: '/pt-BR/mods/fly-by-instruments/player/' },
               { text: 'Tutoriais Ponder', link: '/pt-BR/mods/fly-by-instruments/player/ponder' },
+              { text: 'Instrumentos de atitude', link: '/pt-BR/mods/fly-by-instruments/player/attitude-instruments' },
               { text: 'Sensors', link: '/pt-BR/mods/fly-by-instruments/player/sensors' },
               { text: 'Avionics Computer e GPWS', link: '/pt-BR/mods/fly-by-instruments/player/avionics-computer' },
               { text: 'Modular Table', link: '/pt-BR/mods/fly-by-instruments/player/modular-table' },

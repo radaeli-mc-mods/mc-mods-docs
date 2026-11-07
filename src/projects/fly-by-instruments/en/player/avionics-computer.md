@@ -47,7 +47,7 @@ A freshly placed computer shows INOP until its first evaluation. **Click the but
 | Other Radar Altimeters | Secondary altimeter |
 | Terrain Scanner | Front, rear, left or right scanner: the side chosen in its own screen |
 
-The computer finds the craft's nose from the scanners that have a side: where a front scanner looks, opposite a rear one, or 90° from a side one. The nose aims the Pull up cone and Bank angle. A **front** scanner with a complete scan and an aperture of at least 45° is what lets Pull up react to terrain ahead. Without one, Pull up only uses the time to ground.
+The computer uses the nearest valid Attitude Reference Unit on the same aircraft for its bank angle, and falls back to its own orientation when no unit is available. The unit's Nose axis also determines the Pull up cone when available. Terrain scanners continue to provide directional information for terrain warnings. A **front** scanner with a complete scan and an aperture of at least 45° is what lets Pull up react to terrain ahead. Without one, Pull up only uses the time to ground.
 
 ## Functions
 

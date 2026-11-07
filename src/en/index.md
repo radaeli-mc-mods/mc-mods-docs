@@ -21,12 +21,12 @@ A reusable client-side interface library for Minecraft mods.
 
 ### Aeronautics: Fly by Instruments
 
-Avionics sensors and CC:Tweaked integrations for Create Aeronautics.
+Avionics sensors, attitude instruments and CC:Tweaked interfaces for Create Aeronautics.
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge
-- **Version:** 0.3.0
-- **Guides:** sensors, avionics, wiring, Ponder tutorials, configuration, and Computer Craft
+- **Version:** 0.4.0-beta.1
+- **Guides:** sensors, attitude instruments, avionics, wiring, Ponder tutorials, configuration, and Computer Craft
 
 [Open Aeronautics: Fly by Instruments documentation](/en/mods/fly-by-instruments/)
 

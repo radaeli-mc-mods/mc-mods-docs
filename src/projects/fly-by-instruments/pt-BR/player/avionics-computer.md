@@ -47,7 +47,7 @@ Um computador recém-colocado mostra INOP até a primeira avaliação. **Clique 
 | Os outros Radar Altimeters | Altímetro secundário |
 | Terrain Scanner | Scanner frontal, traseiro, esquerdo ou direito: o lado escolhido na tela dele |
 
-O computador acha o nariz da aeronave pelos scanners com lado: para onde olha um scanner frontal, oposto a um traseiro, ou a 90° de um lateral. O nariz orienta o cone do Pull up e o Bank angle. É um scanner **frontal** com varredura completa e abertura de pelo menos 45° que permite ao Pull up reagir a terreno à frente. Sem ele, o Pull up usa só o tempo até o solo.
+O computador usa a Attitude Reference Unit válida mais próxima na mesma aeronave para o Bank angle; sem uma unidade disponível, recorre à própria orientação. O eixo Nose da unidade também orienta o cone do Pull up quando disponível. Os scanners continuam indicando as direções para alertas de terreno. É um scanner **frontal** com varredura completa e abertura de pelo menos 45° que permite ao Pull up reagir a terreno à frente. Sem ele, o Pull up usa só o tempo até o solo.
 
 ## Funções
 

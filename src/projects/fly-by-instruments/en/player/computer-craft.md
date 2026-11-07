@@ -298,3 +298,35 @@ for _, device in ipairs(bridge.getConnectedDevices()) do
   print(device.type, device.x, device.y, device.z)
 end
 ```
+
+## Attitude Reference Unit API
+
+Its peripheral is named attitude_reference_unit and it publishes attitude_reading_changed events. Values are in degrees except verticalSpeed, which is in blocks per second.
+
+| Function | Result |
+| --- | --- |
+| getAttitude() | status, pitch, roll, heading and time |
+| getRates() | status, turnRate, verticalSpeed, slip and time |
+| getConfig() | nose, up, pitchOffset, rollOffset and damping |
+| setOrientation(nose, up) | Set perpendicular block-face directions |
+| calibrateLevel() | Calibrate pitch and roll; returns false if unavailable or outside the 15° limit |
+| resetCalibration() | Clear pitch and roll offsets |
+| setDamping(mode) | Set off, light or strong; returns false for an unknown mode |
+
+Heading is 0° at north and increases clockwise. Positive pitch is nose-up; positive roll is right-wing-down. Event callbacks receive the attachment name and reading table. Orientation names are north, south, east, west, up or down.
+```lua
+local unit = peripheral.find("attitude_reference_unit")
+if not unit then error("No Attitude Reference Unit found") end
+
+local attitude = unit.getAttitude()
+if attitude.status == "valid" then
+  print(("Pitch %.1f°, roll %.1f°, heading %.1f°"):format(
+    attitude.pitch, attitude.roll, attitude.heading))
+end
+
+local rates = unit.getRates()
+if rates.status == "valid" then
+  print(("Turn %.1f°/s, vertical speed %.1f blocks/s, slip %.1f°"):format(
+    rates.turnRate, rates.verticalSpeed, rates.slip))
+end
+```

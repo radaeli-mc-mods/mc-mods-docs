@@ -8,7 +8,7 @@ Este guia é para quem compila ou estende o mod. As APIs CC:Tweaked usadas duran
 
 ## Ambiente de build
 
-O código atual usa Java 21, Minecraft 1.21.1 e NeoForge 21.1.236. O desenvolvimento também usa Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+ e R-Ui Lib 0.5.0+. Create Aeronautics vem incluído no mod; Create, Aeronautics, Sable, CC:Tweaked e R-Ui Lib são dependências locais de compilação/execução durante o desenvolvimento.
+O código atual usa Java 21, Minecraft 1.21.1 e NeoForge 21.1.236. O desenvolvimento também usa Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+ e R-Ui Lib 0.9.0+. Create Aeronautics vem incluído no mod; Create, Aeronautics, Sable, CC:Tweaked e R-Ui Lib são dependências locais de compilação/execução durante o desenvolvimento.
 
 ```powershell
 .\gradlew.bat build

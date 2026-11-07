@@ -30,6 +30,7 @@ Mount a table **directly on any face of an Avionics Computer**, on top or on a s
 | **Lamp Module (2×1)** | 2 cells | A long warning light. Scroll while aiming at the table to turn it upright (1×2) |
 | **Buzzer Module (1×1)** | 1 cell | Beeps on alerts, from the module's position in the world |
 | **FMS (2×3)** | 2 × 3 cells | Flight Management System: waypoints and a heading compass |
+| **Attitude Indicator (Experimental)** | 2 × 2 cells | Artificial horizon fed by an Attitude Reference Unit |
 
 ### Install and remove
 

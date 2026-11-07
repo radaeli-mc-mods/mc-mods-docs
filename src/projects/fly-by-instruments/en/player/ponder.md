@@ -23,6 +23,9 @@ Hover a supported item in your inventory and hold the **Ponder** key shown by Cr
 | Building a modular cockpit panel | Modular Table, lamps, buzzer, FMS |
 | Understanding and silencing alerts | Avionics Computer, lamps, buzzer |
 | Navigating with waypoints | FMS, FMS Compass |
+| Setting the aircraft frame | Attitude Reference Unit (Experimental) |
+| Reading the artificial horizon | Attitude Indicator (Experimental) |
+| Sources, tapes and ATT flags | Attitude Indicator (Experimental) |
 
 For a first cockpit, watch the wire installation scene, then **Building your first GPWS protection**. Add the scanner expansion and panel tutorials as your cockpit grows. For navigation, follow the FMS tutorial through linking the compass and inserting it into an Aeronautics Navigation Table.
 

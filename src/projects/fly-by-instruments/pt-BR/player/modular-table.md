@@ -30,6 +30,7 @@ Monte uma mesa **diretamente em qualquer face de um Avionics Computer**, em cima
 | **Lamp Module (2×1)** | 2 células | Luz de alerta longa. Role o scroll mirando na mesa para deixá-la em pé (1×2) |
 | **Buzzer Module (1×1)** | 1 célula | Apita nos alertas, a partir da posição do módulo no mundo |
 | **FMS (2×3)** | 2 × 3 células | Flight Management System: waypoints e bússola de proa |
+| **Attitude Indicator (Experimental)** | 2 × 2 células | Horizonte artificial alimentado pela Attitude Reference Unit |
 
 ### Instalar e remover
 
