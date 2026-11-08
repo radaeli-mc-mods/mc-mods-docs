@@ -360,12 +360,13 @@ CurveChart pressure = new CurveChart(List.of(
         new CurvePoint(320, 0, -0.02)),
         new CurveViewport(-80, 360, -0.1, 1.8))
     .setLimits(-64, 320, 0, 1.6)
-    .setAxisLabels(Component.literal("Altitude"), Component.literal("Pressão"))
+    .setAxisLabels(Component.literal("Altitude"), Component.literal("Y"))
+    .setTooltipLabels(null, Component.literal("Pressão"), null)
     .setSnap(1, 0)
     .setOnCommit(points -> savePressureCurve(points));
 ```
 
-O jogador arrasta os pontos, arrasta as alças de tangente do ponto selecionado para mudar a inclinação, dá duplo clique no gráfico para adicionar um ponto e clica com o botão direito em um ponto (ou pressiona Delete) para removê-lo. `setOnChange` é chamado a cada quadro do arraste e `setOnCommit` uma vez ao terminar a edição. Use `setEditable(false)` para um gráfico só de leitura, `addReferenceCurve` para desenhar uma curva de comparação atrás da editável, e `CurveModel.LINEAR` ou sua própria lambda `(points, x) -> y` para outros formatos de curva.
+O jogador arrasta os pontos, arrasta as alças de tangente do ponto selecionado para mudar a inclinação, dá duplo clique no gráfico para adicionar um ponto e clica com o botão direito em um ponto (ou pressiona Delete) para removê-lo. `setOnChange` é chamado a cada quadro do arraste e `setOnCommit` uma vez ao terminar a edição. O tooltip nomeia cada valor pelos rótulos dos eixos, a menos que `setTooltipLabels` defina outros nomes, como no exemplo: o eixo mostra "Y" e o tooltip mostra "Pressão". O ponto selecionado ganha um centro em cor contrastante enquanto é editado; altere-o com `setSelectedPointColor`. Use `setEditable(false)` para um gráfico só de leitura, `addReferenceCurve` para desenhar uma curva de comparação atrás da editável, e `CurveModel.LINEAR` ou sua própria lambda `(points, x) -> y` para outros formatos de curva.
 
 ### Table
 

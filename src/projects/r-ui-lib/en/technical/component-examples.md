@@ -360,12 +360,13 @@ CurveChart pressure = new CurveChart(List.of(
         new CurvePoint(320, 0, -0.02)),
         new CurveViewport(-80, 360, -0.1, 1.8))
     .setLimits(-64, 320, 0, 1.6)
-    .setAxisLabels(Component.literal("Altitude"), Component.literal("Pressure"))
+    .setAxisLabels(Component.literal("Altitude"), Component.literal("Y"))
+    .setTooltipLabels(null, Component.literal("Pressure"), null)
     .setSnap(1, 0)
     .setOnCommit(points -> savePressureCurve(points));
 ```
 
-Players drag points, drag the tangent handles of the selected point to change its slope, double-click the plot to add a point, and right-click a point (or press Delete) to remove it. `setOnChange` runs on every drag frame and `setOnCommit` runs once when an edit finishes. Use `setEditable(false)` for a read-only chart, `addReferenceCurve` to draw a comparison curve behind the editable one, and `CurveModel.LINEAR` or your own `(points, x) -> y` lambda for other curve shapes.
+Players drag points, drag the tangent handles of the selected point to change its slope, double-click the plot to add a point, and right-click a point (or press Delete) to remove it. `setOnChange` runs on every drag frame and `setOnCommit` runs once when an edit finishes. The tooltip names each value after the axis labels unless `setTooltipLabels` gives other names, as in the example: the axis reads "Y" while the tooltip reads "Pressure". The selected point gets a contrasting centre while it is edited; change it with `setSelectedPointColor`. Use `setEditable(false)` for a read-only chart, `addReferenceCurve` to draw a comparison curve behind the editable one, and `CurveModel.LINEAR` or your own `(points, x) -> y` lambda for other curve shapes.
 
 ### Table
 

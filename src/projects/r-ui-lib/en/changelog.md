@@ -5,11 +5,11 @@ description: Release history for R-Ui Lib.
 
 # R-Ui Lib changelog
 
-## [Unreleased]
+## [0.10.0] - 2026-11-08
 
 ### Added
 
-- Added curve charts that plot a curve from control points, with axes, grid and value tooltips. Players can drag points, drag tangent handles to change slopes, double-click to add a point and right-click to remove one.
+- Added interactive curve charts with draggable control points and tangent handles, point editing, axes, grid, and customizable tooltips.
 
 ### Fixed
 

@@ -78,7 +78,7 @@ export default defineConfig({
             ] }
           ],
           '/en/mods/r-ui-lib/': [
-            { text: 'R-Ui Lib - 0.9.0', items: [
+            { text: 'R-Ui Lib - 0.10.0', items: [
               { text: 'Overview', link: '/en/mods/r-ui-lib/' },
               { text: 'Changelog', link: '/en/mods/r-ui-lib/changelog' }
             ] },
@@ -192,7 +192,7 @@ export default defineConfig({
             ] }
           ],
           '/pt-BR/mods/r-ui-lib/': [
-            { text: 'R-Ui Lib - 0.9.0', items: [
+            { text: 'R-Ui Lib - 0.10.0', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/r-ui-lib/' },
               { text: 'Changelog', link: '/pt-BR/mods/r-ui-lib/changelog' }
             ] },
