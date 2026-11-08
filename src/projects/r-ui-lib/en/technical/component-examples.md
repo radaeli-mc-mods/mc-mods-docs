@@ -127,8 +127,10 @@ IconButton lock = new IconButton(Component.literal("Unlock settings"), IconButto
 Separate related groups with a horizontal or vertical rule.
 
 ```java
-Divider divider = new Divider(Divider.Orientation.HORIZONTAL);
+Divider divider = new Divider(Divider.Orientation.HORIZONTAL, 1, null, new Insets(2, 0, 8, 0));
 ```
+
+The `Insets` values are top, right, bottom, and left. For this horizontal divider, only the top and bottom values apply.
 
 ### Panel
 

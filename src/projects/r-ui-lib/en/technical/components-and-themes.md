@@ -22,6 +22,8 @@ The exact API is defined by the documented library release. Use that release's p
 
 See [one example for every component](./component-examples) for focused snippets you can adapt to your screen.
 
+`Divider` reserves 5 pixels before and after its rule by default. For horizontal dividers this spacing is vertical; for vertical dividers it is horizontal. Use the four-argument constructor to set custom spacing, for example `new Divider(Divider.Orientation.HORIZONTAL, 1, null, new Insets(2, 0, 8, 0))` for 2 pixels above and 8 below the rule. Pass `Insets.ZERO` for no spacing.
+
 ## Themes
 
 `UiTheme.DARK` and `UiTheme.LIGHT` provide built-in palettes. Set the global default during client initialization:

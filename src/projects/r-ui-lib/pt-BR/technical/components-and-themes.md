@@ -22,6 +22,8 @@ A API exata é definida pela versão documentada da biblioteca. Use as classes e
 
 Veja [um exemplo de cada componente](./component-examples) para adaptar trechos focados à sua tela.
 
+`Divider` reserva 5 pixels antes e depois da linha por padrão. Em divisores horizontais, o espaçamento é vertical; nos verticais, é horizontal. Use o construtor de quatro argumentos para definir um espaçamento próprio. Por exemplo, `new Divider(Divider.Orientation.HORIZONTAL, 1, null, new Insets(2, 0, 8, 0))` reserva 2 pixels acima e 8 abaixo da linha. Passe `Insets.ZERO` para remover o espaçamento.
+
 ## Temas
 
 `UiTheme.DARK` e `UiTheme.LIGHT` oferecem paletas prontas. Defina o padrão global durante a inicialização do cliente:

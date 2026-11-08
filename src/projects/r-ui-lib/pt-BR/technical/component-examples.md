@@ -127,8 +127,10 @@ IconButton lock = new IconButton(Component.literal("Desbloquear opções"), Icon
 Separe grupos relacionados com uma linha horizontal ou vertical.
 
 ```java
-Divider divider = new Divider(Divider.Orientation.HORIZONTAL);
+Divider divider = new Divider(Divider.Orientation.HORIZONTAL, 1, null, new Insets(2, 0, 8, 0));
 ```
+
+Os valores de `Insets` são superior, direito, inferior e esquerdo. Neste divisor horizontal, apenas os valores superior e inferior se aplicam.
 
 ### Panel
 

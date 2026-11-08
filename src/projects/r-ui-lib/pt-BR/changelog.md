@@ -5,6 +5,12 @@ description: Histórico de versões da R-Ui Lib.
 
 # Changelog da R-Ui Lib
 
+## [0.9.0] - 2026-11-06
+
+### Adicionado
+
+- Adicionado espaçamento padrão ao redor de divisores horizontais e verticais, mantendo-os afastados do conteúdo próximo.
+
 ## [0.8.0] - 2026-10-28
 
 ### Adicionado
