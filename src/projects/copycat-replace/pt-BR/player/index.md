@@ -7,8 +7,10 @@ description: Requisitos, instalação e primeira troca de material de um Copycat
 
 ## Requisitos
 
-- Minecraft **1.20.1**, Forge **47.4.0+** e Create **6.0.8**; ou Minecraft **1.21.1**, NeoForge **21.1.236+** e Create **6.0.10**.
-- Create: Copycats+ **3.0.4** é opcional; use a variante correspondente ao jogo e ao loader.
+- **Minecraft 1.20.1 (Forge)** exige Forge **47.4.0+** e Create **6.0.8**.
+- **Minecraft 1.20.1 (Fabric)** exige Fabric Loader **0.17.2+**, Fabric API **0.92.6+1.20.1** ou posterior para 1.20.1 e Create Fabric **6.0.8.1 (build 1744)**.
+- **Minecraft 1.21.1 (NeoForge)** exige NeoForge **21.1.236+** e Create **6.0.10**.
+- Create: Copycats+ é opcional. Use **3.0.10** no Fabric e **3.0.4** no Forge ou NeoForge.
 - Instale versões correspondentes do Copycat Replace no cliente e no servidor, inclusive nos clientes que entram no multiplayer. Para usar formatos do Copycats+, instale-o nos dois lados.
 
 ## Primeira troca

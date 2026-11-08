@@ -1,5 +1,27 @@
 # Changelog — Create: Copycat Replace!
 
+## [0.4.0] - 2026-11-07
+
+### Adicionado
+
+- Adicionada versão Fabric 1.20.1 para Create Fabric 6.0.8.1, com suporte opcional a formatos do Copycats+ e proteção de claims do Open Parties and Claims.
+
+### Corrigido
+
+- Corrigido o overlay de seleção em lote que aparecia sem uma wrench.
+- Corrigida a ativação do modo em lote quando LEFT ALT entra em conflito com outra tecla no Fabric.
+
+## [0.3.1] - 2026-11-07
+
+### Alterado
+
+- Movido o modo de seleção e a contagem estimada de blocos para baixo da mira.
+- Atualizado o contorno da seleção para usar o mesmo azul da Schematic and Quill do Create.
+
+### Corrigido
+
+- Corrigidos contornos que permaneciam ao desviar o olhar, abrir uma tela ou trocar de dimensão.
+
 ## [0.3.0] - 2026-11-02
 
 ### Adicionado

@@ -12,13 +12,14 @@ The server administrator or singleplayer world owner edits **copycat_replace-ser
 | Variant | Active file |
 | --- | --- |
 | Forge 1.20.1 / 47.4.0 | `<server>/<world>/serverconfig/copycat_replace-server.toml`, generated when the world loads. In singleplayer: `saves/<world>/serverconfig/`. |
+| Fabric 1.20.1 | `config/copycat_replace-server.toml` by default, generated when the server or world starts. If `forceGlobalServerConfigs` is disabled in `config/forgeconfigapiport.toml`, use the world's `serverconfig/` directory. |
 | NeoForge 1.21.1 / 21.1.236 | `config/copycat_replace-server.toml`, generated when SERVER configuration loads. An existing `<world>/serverconfig/copycat_replace-server.toml` overrides it for that world. In singleplayer: `saves/<world>/serverconfig/`. |
 
 For a world-specific NeoForge limit, stop the server or close the world, copy the base file to that world's serverconfig directory, edit the copy, and load the world again. Worlds without an override use the shared base. Creating an override while the world is open takes effect on the next world load. On Forge, `defaultconfigs/copycat_replace-server.toml` can provide the template for newly created world files; it does not replace an existing world's settings.
 
 ## Complete defaults
 
-Generated Forge default:
+Generated default for Forge and Fabric.
 
 ```toml
 #Maximum connected Copycat positions affected by one bulk action (1-256).
@@ -47,7 +48,7 @@ The loader clamps numbers below 1 to 1 and above 256 to 256; missing keys or inc
 
 ## Applying changes
 
-NeoForge watches the active file. Forge also checks this addon's active file every 20 server ticks and waits for two identical reads to handle grouped file-save notifications. A valid reload updates the server rule and sends the new preview limit to connected clients. If config watching is disabled in NeoForge settings, restart the server or reopen the world. Moving or creating a world override also requires loading the world again.
+NeoForge watches the active file. Forge and Fabric check the active file every 20 server ticks and apply changes after two identical reads. On Fabric, an incomplete save keeps the previous limit until the file is valid again. A valid reload updates the server rule and sends the new preview limit to connected clients. If config watching is disabled in NeoForge settings, restart the server or reopen the world. Moving or creating a world override also requires loading the world again.
 
 **Bulk Action on Connected Copycats** is remapped in **Controls** and defaults to **Left Alt**; it is not a TOML key. Claim rules are managed by your server's protection mod.
 

@@ -1,5 +1,27 @@
 # Changelog — Create: Copycat Replace!
 
+## [0.4.0] - 2026-11-07
+
+### Added
+
+- Added a Fabric 1.20.1 version for Create Fabric 6.0.8.1, with optional Copycats+ shapes and Open Parties and Claims protection.
+
+### Fixed
+
+- Fixed the bulk selection overlay appearing without a wrench.
+- Fixed bulk mode failing when Left Alt conflicts with another binding on Fabric.
+
+## [0.3.1] - 2026-11-07
+
+### Changed
+
+- Moved the selection mode and estimated block count below the crosshair.
+- Updated the selection outlines to use the same blue as Create's Schematic and Quill.
+
+### Fixed
+
+- Fixed stale selection outlines when looking away, opening a screen, or changing dimensions.
+
 ## [0.3.0] - 2026-11-02
 
 ### Added

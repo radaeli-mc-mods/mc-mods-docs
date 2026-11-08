@@ -31,6 +31,7 @@ For a wall, click its front face in Plane mode to stay in that wall layer. For a
 - The server limit defaults to **64 positions**, including the origin, and can be set from **1 to 256**. One multi-part block counts as one position.
 - Survival consumes the selected hand stack first, then identical items from the main inventory (hotbar and storage slots). Item tags/components must match; armor and the other hand are excluded. This is always active for group actions, with no extra configuration. Insufficient stock changes only the positions you can pay for. Creative consumes nothing.
 - Unloaded chunks are excluded. A position denied by server interaction or edit permissions is excluded and does not propagate the action through that path.
+- On Fabric 1.20.1, Open Parties and Claims **0.26.3** can protect Copycats in claimed chunks. A bulk edit stops along a route when it reaches a position you cannot edit.
 - The preview does not know server claims, so the actual result can be smaller than the estimate. A permitted alternate connection can still reach a position beyond a blocked path.
 
 [Configuration](configuration) explains how to change the server limit. Hold **Sneak** to bypass replacement and use Create's normal Wrench action.

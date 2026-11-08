@@ -31,6 +31,7 @@ Para uma parede, clique na face frontal em Plano para ficar naquela camada. Para
 - O limite padrão do servidor é **64 posições**, incluindo a origem, ajustável de **1 a 256**. Um bloco multiparte conta uma posição.
 - Survival consome primeiro a pilha da mão escolhida, depois itens idênticos do inventário principal (hotbar e armazenamento). Tags/componentes precisam coincidir; armadura e outra mão ficam fora. Isso está sempre ativo nas ações em grupo, sem configuração adicional. Estoque insuficiente altera somente as posições que podem ser pagas. Creative não consome.
 - Chunks descarregados ficam fora. Posições recusadas pelas permissões de interação ou edição do servidor ficam fora e não propagam a ação por aquele caminho.
+- No Fabric 1.20.1, Open Parties and Claims **0.26.3** pode proteger Copycats em chunks reivindicados. Uma edição em grupo para de avançar por uma rota ao encontrar uma posição que você não pode editar.
 - O preview desconhece claims do servidor, então o resultado pode ser menor que a estimativa. Uma conexão alternativa permitida pode alcançar uma posição além do caminho bloqueado.
 
 [Configurações](configuration) explica como ajustar o limite. Segure **Sneak** para usar a ação normal da wrench do Create.
