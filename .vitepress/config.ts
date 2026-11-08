@@ -63,6 +63,7 @@ export default defineConfig({
               { text: 'R-Ui Lib', link: '/en/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/en/mods/fly-by-instruments/' },
               { text: 'Create: On Demand', link: '/en/mods/create-on-demand/' },
+              { text: 'Create: Aeronautics Easy Pressure Curve', link: '/en/mods/create-aeronautics-easy-pressure-curve/' },
               { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/en/mods/sophisticated-backpack-is-addon/' }
@@ -133,6 +134,19 @@ export default defineConfig({
               { text: 'Configuration', link: '/en/mods/hotbar-locker/player/configuration' }
             ] }
           ],
+          '/en/mods/create-aeronautics-easy-pressure-curve/': [
+            { text: 'Create: Aeronautics Easy Pressure Curve - 0.1.0', items: [
+              { text: 'Overview', link: '/en/mods/create-aeronautics-easy-pressure-curve/' },
+              { text: 'Changelog', link: '/en/mods/create-aeronautics-easy-pressure-curve/changelog' }
+            ] },
+            { text: 'For players', items: [
+              { text: 'Install and use', link: '/en/mods/create-aeronautics-easy-pressure-curve/player/' },
+              { text: 'Configuration', link: '/en/mods/create-aeronautics-easy-pressure-curve/player/configuration' }
+            ] },
+            { text: 'For developers', items: [
+              { text: 'Developer API', link: '/en/mods/create-aeronautics-easy-pressure-curve/technical/api' }
+            ] }
+          ],
           '/en/mods/create-on-demand/': [
             { text: 'Create: On Demand - 0.1.1', items: [
               { text: 'Overview', link: '/en/mods/create-on-demand/' },
@@ -177,6 +191,7 @@ export default defineConfig({
               { text: 'R-Ui Lib', link: '/pt-BR/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/pt-BR/mods/fly-by-instruments/' },
               { text: 'Create: On Demand', link: '/pt-BR/mods/create-on-demand/' },
+              { text: 'Create: Aeronautics Easy Pressure Curve', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/' },
               { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
@@ -245,6 +260,19 @@ export default defineConfig({
             { text: 'Para jogadores', items: [
               { text: 'Instalação e uso', link: '/pt-BR/mods/hotbar-locker/player/' },
               { text: 'Configurações', link: '/pt-BR/mods/hotbar-locker/player/configuration' }
+            ] }
+          ],
+          '/pt-BR/mods/create-aeronautics-easy-pressure-curve/': [
+            { text: 'Create: Aeronautics Easy Pressure Curve - 0.1.0', items: [
+              { text: 'Visão geral', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/' },
+              { text: 'Changelog', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/changelog' }
+            ] },
+            { text: 'Para jogadores', items: [
+              { text: 'Instalação e uso', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/player/' },
+              { text: 'Configurações', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/player/configuration' }
+            ] },
+            { text: 'Para desenvolvedores', items: [
+              { text: 'API para desenvolvedores', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/technical/api' }
             ] }
           ],
           '/pt-BR/mods/create-on-demand/': [

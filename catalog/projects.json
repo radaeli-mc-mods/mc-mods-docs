@@ -7,6 +7,7 @@
     { "slug": "colonies-alfred", "name": "Colonies Alfred", "kind": "mod", "status": "planned" },
     { "slug": "copycat-grate", "name": "Copycat Grate", "kind": "mod", "status": "planned" },
     { "slug": "copycat-replace", "name": "Create: Copycat Replace!", "kind": "mod", "status": "planned", "documentedVersion": "0.4.0" },
+    { "slug": "create-aeronautics-easy-pressure-curve", "name": "Create: Aeronautics Easy Pressure Curve", "kind": "mod", "status": "planned", "documentedVersion": "0.1.0" },
     { "slug": "create-deco-staff", "name": "Create Deco Staff", "kind": "mod", "status": "planned" },
     { "slug": "create-larger-recipe-gauges", "name": "Create Larger Recipe Gauges", "kind": "mod", "status": "planned" },
     { "slug": "create-on-demand", "name": "Create: On Demand", "kind": "mod", "status": "planned", "documentedVersion": "0.1.1" },

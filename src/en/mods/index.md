@@ -39,6 +39,18 @@ Protect selected hotbar slots from automatic item replacement.
 
 [Open Hotbar Locker documentation](/en/mods/hotbar-locker/index.md)
 
+## Create: Aeronautics Easy Pressure Curve
+
+Change the Sable air pressure curve live, per dimension, without a reboot or a full `/reload`.
+
+- **Minecraft:** 1.21.1
+- **Loader:** NeoForge
+- **Version:** 0.1.0
+- **For players:** the `/pressurecurve` command and configuration
+- **For developers:** the pressure curve API
+
+[Open Create: Aeronautics Easy Pressure Curve documentation](/en/mods/create-aeronautics-easy-pressure-curve/index.md)
+
 ## Create: On Demand
 
 Request products through the Stock Keeper using recipes and ingredient connections already set up on Factory Gauges.

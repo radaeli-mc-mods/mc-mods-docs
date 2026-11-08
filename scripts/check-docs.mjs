@@ -35,6 +35,14 @@ const hotbarLockerPages = [
   'player/index.md',
   'player/configuration.md'
 ]
+const pressureCurvePages = [
+  'index.md',
+  'changelog.md',
+  'player/index.md',
+  'player/configuration.md',
+  'technical/api.md'
+]
+
 const createOnDemandPages = [
   'index.md',
   'changelog.md',
@@ -52,6 +60,7 @@ const digitalStorageExpansionPages = [
   'player/configuration.md'
 ]
 const copycatReplacePages = ['index.md', 'changelog.md', 'player/index.md', 'player/connected-materials.md', 'player/configuration.md']
+const preReleaseProjects = new Set(['create-aeronautics-easy-pressure-curve'])
 const failures = []
 
 for (const locale of locales) {
@@ -72,6 +81,17 @@ for (const locale of locales) {
   for (const page of hotbarLockerPages) {
     const path = join(sourceRoot, 'projects', 'hotbar-locker', locale, page)
     if (!existsSync(path)) failures.push(`Missing ${locale} Hotbar Locker page: ${relative(root, path)}`)
+  }
+}
+
+for (const locale of locales) {
+  for (const page of pressureCurvePages) {
+    const path = join(sourceRoot, 'projects', 'create-aeronautics-easy-pressure-curve', locale, page)
+    if (!existsSync(path)) failures.push(`Missing ${locale} Create: Aeronautics Easy Pressure Curve page: ${relative(root, path)}`)
+  }
+  const overview = join(sourceRoot, 'projects', 'create-aeronautics-easy-pressure-curve', locale, 'index.md')
+  if (existsSync(overview) && !readFileSync(overview, 'utf8').includes('[![CurseForge](https://cf.way2muchnoise.eu/title/1792363.svg)](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics-easy-pressure-curve)')) {
+    failures.push(`Missing or inconsistent CurseForge title badge in ${locale} Create: Aeronautics Easy Pressure Curve overview.`)
   }
 }
 
@@ -119,6 +139,8 @@ for (const locale of locales) {
   if (!config.includes(`'/${locale}/mods/fly-by-instruments/player/computer-craft'`)) failures.push(`Missing ${locale} Computer Craft player guide navigation.`)
   if (!config.includes(`'/${locale}/mods/fly-by-instruments/player/sensors'`)) failures.push(`Missing ${locale} sensor player guide navigation.`)
   if (!config.includes(`'/${locale}/mods/hotbar-locker/`)) failures.push(`Missing ${locale} Hotbar Locker navigation or sidebar.`)
+  if (!config.includes(`'/${locale}/mods/create-aeronautics-easy-pressure-curve/`)) failures.push(`Missing ${locale} Create: Aeronautics Easy Pressure Curve navigation or sidebar.`)
+  if (!config.includes(`'/${locale}/mods/create-aeronautics-easy-pressure-curve/player/configuration'`)) failures.push(`Missing ${locale} Create: Aeronautics Easy Pressure Curve configuration page navigation.`)
   if (!config.includes(`'/${locale}/mods/create-on-demand/`)) failures.push(`Missing ${locale} Create: On Demand navigation or sidebar.`)
   if (!config.includes(`'/${locale}/mods/create-on-demand/player/configuration'`)) failures.push(`Missing ${locale} Create: On Demand configuration page navigation.`)
   if (!config.includes(`'/${locale}/mods/sophisticated-backpack-is-addon/`)) failures.push(`Missing ${locale} Digital Storage Expansion navigation or sidebar.`)
@@ -152,10 +174,10 @@ for (const project of manifest.projects.filter((entry) => entry.documentedVersio
     }
   }
 }
-for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'create-on-demand', 'sophisticated-backpack-is-addon', 'copycat-replace']) {
+for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'create-on-demand', 'create-aeronautics-easy-pressure-curve', 'sophisticated-backpack-is-addon', 'copycat-replace']) {
   for (const locale of locales) {
     const changelog = join(sourceRoot, 'projects', slug, locale, 'changelog.md')
-    if (existsSync(changelog) && !/^## \[\d+\.\d+\.\d+\]/m.test(readFileSync(changelog, 'utf8'))) {
+    if (existsSync(changelog) && !preReleaseProjects.has(slug) && !/^## \[\d+\.\d+\.\d+\]/m.test(readFileSync(changelog, 'utf8'))) {
       failures.push(`The ${locale} changelog page for ${slug} must include release entries in its body.`)
     }
   }
@@ -255,5 +277,5 @@ if (failures.length) {
   console.error(failures.map((failure) => `- ${failure}`).join('\n'))
   process.exitCode = 1
 } else {
-  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${createOnDemandPages.length} translated Create: On Demand pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, 3 translated RoadWeaver pages with configuration parity, project routes, navigation, and local links.`)
+  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${pressureCurvePages.length} translated Create: Aeronautics Easy Pressure Curve pages, ${createOnDemandPages.length} translated Create: On Demand pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, 3 translated RoadWeaver pages with configuration parity, project routes, navigation, and local links.`)
 }
