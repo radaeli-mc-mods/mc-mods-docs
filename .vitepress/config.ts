@@ -62,6 +62,7 @@ export default defineConfig({
               { text: 'Project catalog', link: '/en/mods/' },
               { text: 'R-Ui Lib', link: '/en/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/en/mods/fly-by-instruments/' },
+              { text: 'Create: On Demand', link: '/en/mods/create-on-demand/' },
               { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/en/mods/sophisticated-backpack-is-addon/' }
@@ -132,6 +133,16 @@ export default defineConfig({
               { text: 'Configuration', link: '/en/mods/hotbar-locker/player/configuration' }
             ] }
           ],
+          '/en/mods/create-on-demand/': [
+            { text: 'Create: On Demand - 0.1.1', items: [
+              { text: 'Overview', link: '/en/mods/create-on-demand/' },
+              { text: 'Changelog', link: '/en/mods/create-on-demand/changelog' }
+            ] },
+            { text: 'For players', items: [
+              { text: 'Install and use', link: '/en/mods/create-on-demand/player/' },
+              { text: 'Configuration', link: '/en/mods/create-on-demand/player/configuration' }
+            ] }
+          ],
           '/en/mods/sophisticated-backpack-is-addon/': [
             { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.1', items: [
               { text: 'Overview', link: '/en/mods/sophisticated-backpack-is-addon/' },
@@ -165,6 +176,7 @@ export default defineConfig({
               { text: 'Catálogo de projetos', link: '/pt-BR/mods/' },
               { text: 'R-Ui Lib', link: '/pt-BR/mods/r-ui-lib/' },
               { text: 'Aeronautics: Fly by Instruments', link: '/pt-BR/mods/fly-by-instruments/' },
+              { text: 'Create: On Demand', link: '/pt-BR/mods/create-on-demand/' },
               { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
@@ -233,6 +245,16 @@ export default defineConfig({
             { text: 'Para jogadores', items: [
               { text: 'Instalação e uso', link: '/pt-BR/mods/hotbar-locker/player/' },
               { text: 'Configurações', link: '/pt-BR/mods/hotbar-locker/player/configuration' }
+            ] }
+          ],
+          '/pt-BR/mods/create-on-demand/': [
+            { text: 'Create: On Demand - 0.1.1', items: [
+              { text: 'Visão geral', link: '/pt-BR/mods/create-on-demand/' },
+              { text: 'Changelog', link: '/pt-BR/mods/create-on-demand/changelog' }
+            ] },
+            { text: 'Para jogadores', items: [
+              { text: 'Instalação e uso', link: '/pt-BR/mods/create-on-demand/player/' },
+              { text: 'Configurações', link: '/pt-BR/mods/create-on-demand/player/configuration' }
             ] }
           ],
           '/pt-BR/mods/sophisticated-backpack-is-addon/': [

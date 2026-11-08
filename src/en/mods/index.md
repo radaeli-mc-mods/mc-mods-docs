@@ -39,6 +39,17 @@ Protect selected hotbar slots from automatic item replacement.
 
 [Open Hotbar Locker documentation](/en/mods/hotbar-locker/index.md)
 
+## Create: On Demand
+
+Request products through the Stock Keeper using recipes and ingredient connections already set up on Factory Gauges.
+
+- **Minecraft:** 1.20.1 and 1.21.1
+- **Loaders:** Forge for 1.20.1; NeoForge for 1.21.1
+- **Version:** 0.1.1
+- **For players:** installation, ordering, delivery, and configuration
+
+[Open Create: On Demand documentation](/en/mods/create-on-demand/index.md)
+
 ## Sophisticated Backpacks: Digital Storage Expansion
 
 Connect Sophisticated Backpacks upgrades to AE2, Refined Storage, Tom's Simple Storage, or SCC on NeoForge 1.21.1.

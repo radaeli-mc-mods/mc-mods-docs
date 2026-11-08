@@ -35,6 +35,12 @@ const hotbarLockerPages = [
   'player/index.md',
   'player/configuration.md'
 ]
+const createOnDemandPages = [
+  'index.md',
+  'changelog.md',
+  'player/index.md',
+  'player/configuration.md'
+]
 const digitalStorageExpansionPages = [
   'technical/development.md',
   'index.md',
@@ -66,6 +72,13 @@ for (const locale of locales) {
   for (const page of hotbarLockerPages) {
     const path = join(sourceRoot, 'projects', 'hotbar-locker', locale, page)
     if (!existsSync(path)) failures.push(`Missing ${locale} Hotbar Locker page: ${relative(root, path)}`)
+  }
+}
+
+for (const locale of locales) {
+  for (const page of createOnDemandPages) {
+    const path = join(sourceRoot, 'projects', 'create-on-demand', locale, page)
+    if (!existsSync(path)) failures.push(`Missing ${locale} Create: On Demand page: ${relative(root, path)}`)
   }
 }
 
@@ -106,6 +119,8 @@ for (const locale of locales) {
   if (!config.includes(`'/${locale}/mods/fly-by-instruments/player/computer-craft'`)) failures.push(`Missing ${locale} Computer Craft player guide navigation.`)
   if (!config.includes(`'/${locale}/mods/fly-by-instruments/player/sensors'`)) failures.push(`Missing ${locale} sensor player guide navigation.`)
   if (!config.includes(`'/${locale}/mods/hotbar-locker/`)) failures.push(`Missing ${locale} Hotbar Locker navigation or sidebar.`)
+  if (!config.includes(`'/${locale}/mods/create-on-demand/`)) failures.push(`Missing ${locale} Create: On Demand navigation or sidebar.`)
+  if (!config.includes(`'/${locale}/mods/create-on-demand/player/configuration'`)) failures.push(`Missing ${locale} Create: On Demand configuration page navigation.`)
   if (!config.includes(`'/${locale}/mods/sophisticated-backpack-is-addon/`)) failures.push(`Missing ${locale} Digital Storage Expansion navigation or sidebar.`)
 }
 
@@ -137,7 +152,7 @@ for (const project of manifest.projects.filter((entry) => entry.documentedVersio
     }
   }
 }
-for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'sophisticated-backpack-is-addon', 'copycat-replace']) {
+for (const slug of ['r-ui-lib', 'fly-by-instruments', 'hotbar-locker', 'create-on-demand', 'sophisticated-backpack-is-addon', 'copycat-replace']) {
   for (const locale of locales) {
     const changelog = join(sourceRoot, 'projects', slug, locale, 'changelog.md')
     if (existsSync(changelog) && !/^## \[\d+\.\d+\.\d+\]/m.test(readFileSync(changelog, 'utf8'))) {
@@ -240,5 +255,5 @@ if (failures.length) {
   console.error(failures.map((failure) => `- ${failure}`).join('\n'))
   process.exitCode = 1
 } else {
-  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, 3 translated RoadWeaver pages with configuration parity, project routes, navigation, and local links.`)
+  console.log(`Documentation check passed: ${requiredPages.length} translated R-Ui Lib pages, ${flightSafetyPages.length} translated Aeronautics: Fly by Instruments pages, ${hotbarLockerPages.length} translated Hotbar Locker pages, ${createOnDemandPages.length} translated Create: On Demand pages, ${digitalStorageExpansionPages.length} translated Digital Storage Expansion pages, ${copycatReplacePages.length} translated Copycat Replace pages, 3 translated RoadWeaver pages with configuration parity, project routes, navigation, and local links.`)
 }
