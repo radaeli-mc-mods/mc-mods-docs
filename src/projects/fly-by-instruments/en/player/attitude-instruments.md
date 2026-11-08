@@ -4,7 +4,7 @@ title: Attitude instruments
 
 # Attitude instruments
 
-The experimental Attitude Reference Unit measures an aircraft's pitch, roll, heading, turn rate, vertical speed and slip. It publishes readings across the avionics cable network. The experimental Attitude Indicator displays pitch and roll on a Modular Table. Both blocks are creative-only in version 0.4.0-beta.1.
+The experimental Attitude Reference Unit measures an aircraft's pitch, roll, heading, turn rate, vertical speed and slip. It publishes readings across the avionics cable network. The experimental Attitude Indicator displays pitch and roll on a Modular Table. Both blocks are creative-only in version 0.4.0-beta.2.
 
 ## Attitude Reference Unit
 
@@ -18,7 +18,7 @@ On a moving aircraft, the unit reports pitch (nose up is positive), roll (right 
 
 Install the module on a Modular Table by right-clicking with it in hand. It occupies 2 × 2 cells and can span joined tables. A floor-mounted table uses a slanted housing; wall and ceiling tables use a flat plate.
 
-Connect the table to the same cable network as an Attitude Reference Unit. The indicator uses the nearest usable unit on the same aircraft. Right-click the installed module with an empty hand to open its screen and inspect pitch, roll and source states.
+Connect the table to the same cable network as an Attitude Reference Unit. The indicator uses the nearest usable unit on the same aircraft. Right-click the installed module with an empty hand to open its screen and inspect pitch, roll and source states. The display uses a simpler pitch ladder with marks every 10° and a bank index with 30° and 60° marks. Its colors shift between day and night, and the altitude reading appears in a large band along the bottom. A speed band also appears with a temporary simulated value in blocks per second; it is not a measured aircraft speed.
 
 - A usable reference unit shows the artificial horizon. Nose-up moves the horizon down; right-wing-down is positive roll.
 - A nose near vertical shows a small amber ATT flag while holding the last defined roll.

@@ -5,6 +5,21 @@ description: "Release history for Aeronautics: Fly by Instruments."
 
 # Aeronautics: Fly by Instruments changelog
 
+## [0.4.0-beta.2] - 2026-11-07
+
+### Added
+
+- Added a temporary simulated speed readout to the Attitude Indicator.
+
+### Changed
+
+- Redesigned the Attitude Indicator display with day and night colors, simpler pitch and bank markings, and a larger altitude readout.
+- Updated the Attitude Indicator housing with painted iron and polished brass trim.
+
+### Fixed
+
+- Fixed the Attitude Indicator's selection box extending too far from wall and ceiling tables.
+
 ## [0.4.0-beta.1] - 2026-11-06
 
 ### Added

@@ -5,6 +5,21 @@ description: "Histórico de versões de Aeronautics: Fly by Instruments."
 
 # Changelog de Aeronautics: Fly by Instruments
 
+## [0.4.0-beta.2] - 2026-11-07
+
+### Adicionado
+
+- Adicionada uma leitura simulada e temporária de velocidade ao Attitude Indicator.
+
+### Alterado
+
+- Redesenhado o mostrador do Attitude Indicator com cores para dia e noite, marcações de pitch e inclinação simplificadas e leitura de altitude maior.
+- Atualizada a carcaça do Attitude Indicator com ferro pintado e detalhes de latão polido.
+
+### Corrigido
+
+- Corrigida a caixa de seleção do Attitude Indicator, que se estendia além das mesas na parede e no teto.
+
 ## [0.4.0-beta.1] - 2026-11-06
 
 ### Adicionado
