@@ -55,8 +55,8 @@ Connect backpack upgrades to AE2, Refined Storage, Tom's Simple Storage, or SCC 
 Swap Copycat materials directly or apply, replace, and remove matching connected materials.
 
 - **Minecraft:** 1.20.1 and 1.21.1
-- **Loaders:** Forge for 1.20.1; NeoForge for 1.21.1
-- **Version:** 0.3.0
+- **Loaders:** Forge and Fabric for 1.20.1, NeoForge for 1.21.1
+- **Version:** 0.3.1
 - **Guides:** installation, selection modes, inventory materials, and configuration
 
 [Open Create: Copycat Replace! documentation](/en/mods/copycat-replace/)

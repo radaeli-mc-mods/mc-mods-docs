@@ -55,8 +55,8 @@ Conecte upgrades da mochila ao AE2, Refined Storage, Tom's Simple Storage ou SCC
 Troque materiais de Copycats diretamente ou aplique, substitua e remova materiais conectados.
 
 - **Minecraft:** 1.20.1 e 1.21.1
-- **Loaders:** Forge para 1.20.1; NeoForge para 1.21.1
-- **Versão:** 0.3.0
+- **Loaders:** Forge e Fabric para 1.20.1, NeoForge para 1.21.1
+- **Versão:** 0.3.1
 - **Guias:** instalação, modos de seleção, materiais do inventário e configurações
 
 [Abrir a documentação do Create: Copycat Replace!](/pt-BR/mods/copycat-replace/)
