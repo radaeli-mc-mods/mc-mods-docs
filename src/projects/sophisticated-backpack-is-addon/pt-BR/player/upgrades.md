@@ -5,7 +5,7 @@ description: O que cada upgrade de Digital Storage Expansion faz.
 
 # Catálogo de upgrades
 
-O mod adiciona oito upgrades para Sophisticated Backpacks. Cada função tem um único item universal: vincule-o ao AE2, Refined Storage ou Tom's Simple Storage; SCC 1.5.3 ou mais recente também é compatível no NeoForge 1.21.1. Não é preciso obter um item diferente para cada rede.
+O mod adiciona nove upgrades para Sophisticated Backpacks. Cada função tem um único item universal: vincule-o ao AE2, Refined Storage ou Tom's Simple Storage; SCC 1.5.3 ou mais recente também é compatível no NeoForge 1.21.1. Não é preciso obter um item diferente para cada rede.
 
 Os ícones abaixo mostram cada upgrade sem vínculo. Depois de vinculado, a tela do upgrade escurece e o ícone assume a cor da rede; veja [Vínculo](linking#como-fica-um-upgrade-vinculado).
 
@@ -19,5 +19,6 @@ Os ícones abaixo mostram cada upgrade sem vínculo. Depois de vinculado, a tela
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_feeding_upgrade.png" alt="Remote Feeding" width="32"> | **Remote Feeding** | Alimenta o jogador que carrega a mochila com a comida configurada quando as condições de fome ou ferimento são atendidas. |
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_alchemy_upgrade.png" alt="Remote Alchemy" width="32"> | **Remote Alchemy** | Usa automaticamente consumíveis configurados quando as condições de cada slot são atendidas. |
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_pump_upgrade.png" alt="Remote Pump" width="32"> | **Remote Pump** | Transfere fluidos configurados entre o tanque da mochila ou a rede e recipientes, blocos próximos com suporte a fluidos ou fluidos do mundo. Tom's Simple Storage só transfere itens. |
+| <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_crafting_upgrade.png" alt="Remote Crafting" width="32"> | **Remote Crafting** | Escolha uma receita na mochila e preencha os espaços vazios da bancada com ingredientes da mochila e da rede vinculada. Os ingredientes que já estão na bancada permanecem no lugar. |
 
 Consulte [Vínculo](linking) para conectar um upgrade. Veja [Filtros e prioridade de origem](filters) para as listas permitidas/bloqueadas, correspondência com itens guardados e Backpack first ou Linked network first.

@@ -14,7 +14,7 @@ A R-Ui Lib compõe telas usando componentes. Adicione elementos a um layout raiz
 | Layout | `Row`, `Column`, `Stack`, `Grid`, `ScrollView`, `ClipStack` | Posicionar, agrupar, rolar e recortar conteúdo |
 | Exibição | `Label`, `Panel`, `Card`, `Divider`, `ItemCard` | Apresentar texto, conteúdo agrupado e prévias de itens |
 | Controles | `Button`, `IconButton`, `Toggle`, `Chip`, `Tabs`, `Select`, `Radio`, `RadioGroup`, `SegmentedControl`, `Stepper`, `TextField`, `SearchField`, `Slider` | Permitir escolhas e entrada de valores |
-| Dados e retorno visual | `ItemSlot`, `InventoryGrid`, `ProgressBar`, `Table`, `Modal`, notificações toast | Selecionar itens, mostrar dados e comunicar resultados |
+| Dados e retorno visual | `ItemSlot`, `InventoryGrid`, `ProgressBar`, `CurveChart`, `Table`, `Modal`, notificações toast | Selecionar itens, mostrar dados e comunicar resultados |
 
 A API exata é definida pela versão documentada da biblioteca. Use as classes e métodos públicos dessa versão.
 

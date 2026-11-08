@@ -25,7 +25,7 @@ Os mods de armazenamento são dependências opcionais. Você pode instalar mais 
 
 ## Primeiros passos
 
-1. Faça um dos oito upgrades remotos usando o upgrade avançado correspondente do Sophisticated Backpacks, 3 diamantes, 2 Pérolas do Ender e 2 redstone.
+1. Faça um dos oito upgrades de armazenamento usando o upgrade avançado correspondente do Sophisticated Backpacks, 3 diamantes, 2 Pérolas do Ender e 2 redstone. Remote Crafting usa o Crafting Upgrade comum com os mesmos materiais.
 2. Segure o upgrade e dê **Shift + clique direito** em um bloco compatível da rede. Use um ME Wireless Access Point do AE2, um Controller do Refined Storage, um Storage Terminal do Tom's Simple Storage ou uma Network Antenna do SCC no NeoForge 1.21.1.
 3. Coloque o upgrade vinculado em um slot de upgrade da mochila e abra sua aba para configurá-lo.
 4. Use os controles do upgrade ou deixe seu comportamento automático funcionar. Consulte [Vínculo](linking), [Filtros e prioridade de origem](filters) e o [catálogo de upgrades](upgrades).

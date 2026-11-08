@@ -65,7 +65,7 @@ export default defineConfig({
               { text: 'Create: On Demand', link: '/en/mods/create-on-demand/' },
               { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
-              { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/en/mods/sophisticated-backpack-is-addon/' }
+              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/en/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
@@ -144,7 +144,7 @@ export default defineConfig({
             ] }
           ],
           '/en/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.1', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', items: [
               { text: 'Overview', link: '/en/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/en/mods/sophisticated-backpack-is-addon/changelog' }
             ] },
@@ -179,7 +179,7 @@ export default defineConfig({
               { text: 'Create: On Demand', link: '/pt-BR/mods/create-on-demand/' },
               { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
-              { text: 'Sophisticated Backpacks: Digital Storage Expansion', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
+              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
@@ -258,7 +258,7 @@ export default defineConfig({
             ] }
           ],
           '/pt-BR/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.4.1', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/pt-BR/mods/sophisticated-backpack-is-addon/changelog' }
             ] },

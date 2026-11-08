@@ -5,7 +5,7 @@ description: Link a remote upgrade to AE2, Refined Storage, or Tom's Simple Stor
 
 # Linking
 
-Each remote upgrade stores its own link to one network endpoint. All eight upgrade types use the same linking method; each type can link to Applied Energistics 2, Refined Storage, or Tom's Simple Storage. On NeoForge 1.21.1 with SCC 1.5.3 or newer installed, they can also link to Super Cool Calculator. You do not need a network-specific version of the upgrade.
+Each remote upgrade stores its own link to one network endpoint. All nine upgrade types use the same linking method; each type can link to Applied Energistics 2, Refined Storage, or Tom's Simple Storage. On NeoForge 1.21.1 with SCC 1.5.3 or newer installed, they can also link to Super Cool Calculator. You do not need a network-specific version of the upgrade.
 
 ## Link an upgrade
 

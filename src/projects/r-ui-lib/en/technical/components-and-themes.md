@@ -14,7 +14,7 @@ R-Ui Lib builds screens from composable components. Add children to a root layou
 | Layout | `Row`, `Column`, `Stack`, `Grid`, `ScrollView`, `ClipStack` | Position, group, scroll, and clip content |
 | Display | `Label`, `Panel`, `Card`, `Divider`, `ItemCard` | Present text, grouped content, and item previews |
 | Controls | `Button`, `IconButton`, `Toggle`, `Chip`, `Tabs`, `Select`, `Radio`, `RadioGroup`, `SegmentedControl`, `Stepper`, `TextField`, `SearchField`, `Slider` | Let players make choices and enter values |
-| Data and feedback | `ItemSlot`, `InventoryGrid`, `ProgressBar`, `Table`, `Modal`, toast notifications | Select items, show data, and communicate results |
+| Data and feedback | `ItemSlot`, `InventoryGrid`, `ProgressBar`, `CurveChart`, `Table`, `Modal`, toast notifications | Select items, show data, and communicate results |
 
 The exact API is defined by the documented library release. Use that release's public classes and methods.
 

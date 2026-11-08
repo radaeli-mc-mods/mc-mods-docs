@@ -348,6 +348,25 @@ ProgressBar progress = new ProgressBar(0, 100, 42)
     .setPercentage(true);
 ```
 
+### CurveChart
+
+Desenhe uma curva a partir de pontos de controle e deixe o jogador remodelá-la. Cada `CurvePoint` guarda `x`, `y` e a inclinação da curva naquele ponto. O padrão `CurveModel.HERMITE` desenha uma curva cúbica suave que passa por todos os pontos e mantém os valores das pontas além dos pontos externos.
+
+```java
+CurveChart pressure = new CurveChart(List.of(
+        new CurvePoint(-38, 1.5, -0.006),
+        new CurvePoint(63, 1, -0.004),
+        new CurvePoint(280, 0.4, -0.0016),
+        new CurvePoint(320, 0, -0.02)),
+        new CurveViewport(-80, 360, -0.1, 1.8))
+    .setLimits(-64, 320, 0, 1.6)
+    .setAxisLabels(Component.literal("Altitude"), Component.literal("Pressão"))
+    .setSnap(1, 0)
+    .setOnCommit(points -> savePressureCurve(points));
+```
+
+O jogador arrasta os pontos, arrasta as alças de tangente do ponto selecionado para mudar a inclinação, dá duplo clique no gráfico para adicionar um ponto e clica com o botão direito em um ponto (ou pressiona Delete) para removê-lo. `setOnChange` é chamado a cada quadro do arraste e `setOnCommit` uma vez ao terminar a edição. Use `setEditable(false)` para um gráfico só de leitura, `addReferenceCurve` para desenhar uma curva de comparação atrás da editável, e `CurveModel.LINEAR` ou sua própria lambda `(points, x) -> y` para outros formatos de curva.
+
 ### Table
 
 Renderize linhas com acessores tipados por coluna.

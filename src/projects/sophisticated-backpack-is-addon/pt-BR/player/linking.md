@@ -5,7 +5,7 @@ description: Vincule um upgrade remoto ao AE2, Refined Storage ou Tom's Simple S
 
 # Vínculo
 
-Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os oito tipos usam o mesmo método: podem se conectar ao Applied Energistics 2, Refined Storage ou Tom's Simple Storage. Com SCC 1.5.3 ou mais recente no NeoForge 1.21.1, também podem se conectar ao Super Cool Calculator. Não é preciso obter uma variante do upgrade para cada rede.
+Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os nove tipos usam o mesmo método: podem se conectar ao Applied Energistics 2, Refined Storage ou Tom's Simple Storage. Com SCC 1.5.3 ou mais recente no NeoForge 1.21.1, também podem se conectar ao Super Cool Calculator. Não é preciso obter uma variante do upgrade para cada rede.
 
 ## Vincular um upgrade
 

@@ -5,6 +5,17 @@ description: Histórico de versões da R-Ui Lib.
 
 # Changelog da R-Ui Lib
 
+## [Não lançado]
+
+### Adicionado
+
+- Adicionados gráficos de curva que desenham uma curva a partir de pontos de controle, com eixos, grade e tooltips de valor. O jogador pode arrastar pontos, arrastar alças de tangente para mudar inclinações, dar duplo clique para adicionar um ponto e clicar com o botão direito para remover um.
+
+### Corrigido
+
+- Corrigido o travamento de seletores de opções sem valor inicial no primeiro passo.
+- Corrigidas as setas e o tooltip restrito ao rótulo do stepper, que não respondiam antes do primeiro desenho.
+
 ## [0.9.0] - 2026-11-06
 
 ### Adicionado

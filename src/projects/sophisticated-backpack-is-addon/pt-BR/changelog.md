@@ -7,6 +7,12 @@ description: Histórico de versões de Digital Storage Expansion.
 
 Fonte canônica: [CHANGELOG.md no GitHub](https://github.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/blob/main/CHANGELOG.md).
 
+## [0.5.0] - 2026-11-08
+
+### Adicionado
+
+- Adicionado Remote Crafting, que preenche os espaços vazios da bancada com ingredientes da mochila e da rede vinculada para uma receita escolhida.
+
 ## [0.4.1] - 2026-11-01
 
 ### Corrigido

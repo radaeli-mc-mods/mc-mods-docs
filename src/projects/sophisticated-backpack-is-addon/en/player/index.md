@@ -25,7 +25,7 @@ Storage mods are optional dependencies. You can install more than one; each upgr
 
 ## First steps
 
-1. Craft one of the eight remote upgrades from its matching advanced Sophisticated Backpacks upgrade, 3 diamonds, 2 Ender Pearls, and 2 redstone dust.
+1. Craft one of the eight storage upgrades from its matching advanced Sophisticated Backpacks upgrade, 3 diamonds, 2 Ender Pearls, and 2 redstone dust. Remote Crafting uses the regular Crafting Upgrade with the same materials.
 2. Hold that upgrade and **Shift-right-click** a compatible network block. Use an ME Wireless Access Point for AE2, a Controller for Refined Storage, a Storage Terminal for Tom's Simple Storage, or a Network Antenna for SCC on NeoForge 1.21.1.
 3. Put the linked upgrade into a backpack upgrade slot and open its tab to configure it.
 4. Use the upgrade's controls or automatic behavior in game. See [Linking](linking), [Filters and source priority](filters), and the [upgrade catalog](upgrades).

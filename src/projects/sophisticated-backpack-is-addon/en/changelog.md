@@ -7,6 +7,12 @@ description: Release history for Digital Storage Expansion.
 
 Canonical source: [CHANGELOG.md on GitHub](https://github.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/blob/main/CHANGELOG.md).
 
+## [0.5.0] - 2026-11-08
+
+### Added
+
+- Added Remote Crafting, which fills empty crafting slots with ingredients from your backpack and linked network for a recipe you choose.
+
 ## [0.4.1] - 2026-11-01
 
 ### Fixed
