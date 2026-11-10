@@ -27,6 +27,7 @@
     { "slug": "simply-light-smart", "name": "Simply Light Smart", "kind": "mod", "status": "planned" },
     { "slug": "sophisticated-backpack-is-addon", "name": "Sophisticated Backpacks: Digital Storage Expansion", "kind": "mod", "status": "planned", "documentedVersion": "0.5.0" },
     { "slug": "sophisticatedbackpack-is-addon", "name": "Sophisticated Backpacks Addon (legacy copy)", "kind": "workspace-copy", "status": "excluded-copy" },
+    { "slug": "vertical-trapdoors", "name": "Vertical Trapdoors", "kind": "mod", "status": "planned", "documentedVersion": "0.1.2" },
     { "slug": "voxy-multiversion", "name": "Voxy Multiversion", "kind": "upstream-fork", "status": "excluded-fork" },
     { "slug": "roadweaver-tectonic3", "name": "RoadWeaver", "kind": "upstream-fork", "status": "planned", "documentedVersion": "2.4.1-1.21.1" }
   ]

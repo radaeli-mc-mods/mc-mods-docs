@@ -83,6 +83,17 @@ Swap Copycat materials directly or apply, replace, and remove matching connected
 
 [Open Create: Copycat Replace! documentation](/en/mods/copycat-replace/)
 
+## Vertical Trapdoors
+
+Place trapdoors upright against walls and choose which way they open.
+
+- **Minecraft 1.20.1** · Forge and Fabric
+- **Minecraft 1.21.1** · NeoForge and Fabric
+- **Minecraft 26.1.2, 26.2, and 26.3** · NeoForge and Fabric
+- **Documented version** · 0.1.2
+
+[Open Vertical Trapdoors documentation](/en/mods/vertical-trapdoors/)
+
 ## RoadWeaver
 
 Roads between structures with Tectonic 3.0.28 terrain.

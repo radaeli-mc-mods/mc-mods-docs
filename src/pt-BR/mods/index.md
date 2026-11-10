@@ -83,6 +83,17 @@ Troque materiais de Copycats diretamente ou aplique, substitua e remova materiai
 
 [Abrir a documentação do Create: Copycat Replace!](/pt-BR/mods/copycat-replace/)
 
+## Vertical Trapdoors
+
+Coloque alçapões na vertical junto a paredes e escolha para que lado eles abrem.
+
+- **Minecraft 1.20.1** · Forge e Fabric
+- **Minecraft 1.21.1** · NeoForge e Fabric
+- **Minecraft 26.1.2, 26.2 e 26.3** · NeoForge e Fabric
+- **Versão documentada** · 0.1.2
+
+[Abrir a documentação do Vertical Trapdoors](/pt-BR/mods/vertical-trapdoors/)
+
 ## RoadWeaver
 
 Estradas entre estruturas com terreno do Tectonic 3.0.28.

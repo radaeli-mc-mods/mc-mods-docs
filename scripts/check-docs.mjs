@@ -152,6 +152,18 @@ for (const locale of locales) {
   }
 }
 
+for (const locale of locales) {
+  for (const page of ['', 'changelog', 'player/', 'player/configuration']) {
+    if (!config.includes(`'/${locale}/mods/vertical-trapdoors/${page}'`)) {
+      failures.push(`Missing ${locale} Vertical Trapdoors navigation for ${page}.`)
+    }
+    const sourcePage = page === '' || page.endsWith('/') ? `${page}index.md` : `${page}.md`
+    if (!existsSync(join(sourceRoot, 'projects', 'vertical-trapdoors', locale, sourcePage))) {
+      failures.push(`Missing ${locale} Vertical Trapdoors page ${sourcePage}.`)
+    }
+  }
+}
+
 const manifest = JSON.parse(readFileSync(join(root, 'catalog', 'projects.json'), 'utf8'))
 const pilot = manifest.projects.find((project) => project.slug === 'r-ui-lib')
 if (!pilot || pilot.status !== 'published' || pilot.kind !== 'library') {

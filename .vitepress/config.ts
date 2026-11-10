@@ -65,12 +65,23 @@ export default defineConfig({
               { text: 'Create: On Demand', link: '/en/mods/create-on-demand/' },
               { text: 'Create: Aeronautics Easy Pressure Curve', link: '/en/mods/create-aeronautics-easy-pressure-curve/' },
               { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
+              { text: 'Vertical Trapdoors', link: '/en/mods/vertical-trapdoors/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/en/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
         sidebar: {
+          '/en/mods/vertical-trapdoors/': [
+            { text: 'Vertical Trapdoors - 0.1.2', items: [
+              { text: 'Overview', link: '/en/mods/vertical-trapdoors/' },
+              { text: 'Changelog', link: '/en/mods/vertical-trapdoors/changelog' }
+            ] },
+            { text: 'For players', items: [
+              { text: 'Install and use', link: '/en/mods/vertical-trapdoors/player/' },
+              { text: 'Configuration', link: '/en/mods/vertical-trapdoors/player/configuration' }
+            ] }
+          ],
           '/en/mods/roadweaver-tectonic3/': [
             { text: 'RoadWeaver - 2.4.1-1.21.1', items: [{ text: 'Overview', link: '/en/mods/roadweaver-tectonic3/' }, { text: 'Changelog', link: '/en/mods/roadweaver-tectonic3/changelog' }] },
             { text: 'For players', items: [
@@ -193,12 +204,23 @@ export default defineConfig({
               { text: 'Create: On Demand', link: '/pt-BR/mods/create-on-demand/' },
               { text: 'Create: Aeronautics Easy Pressure Curve', link: '/pt-BR/mods/create-aeronautics-easy-pressure-curve/' },
               { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
+              { text: 'Vertical Trapdoors', link: '/pt-BR/mods/vertical-trapdoors/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
               { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
         sidebar: {
+          '/pt-BR/mods/vertical-trapdoors/': [
+            { text: 'Vertical Trapdoors - 0.1.2', items: [
+              { text: 'Visão geral', link: '/pt-BR/mods/vertical-trapdoors/' },
+              { text: 'Changelog', link: '/pt-BR/mods/vertical-trapdoors/changelog' }
+            ] },
+            { text: 'Para jogadores', items: [
+              { text: 'Instalação e uso', link: '/pt-BR/mods/vertical-trapdoors/player/' },
+              { text: 'Configurações', link: '/pt-BR/mods/vertical-trapdoors/player/configuration' }
+            ] }
+          ],
           '/pt-BR/mods/roadweaver-tectonic3/': [
             { text: 'RoadWeaver - 2.4.1-1.21.1', items: [{ text: 'Visão geral', link: '/pt-BR/mods/roadweaver-tectonic3/' }, { text: 'Changelog', link: '/pt-BR/mods/roadweaver-tectonic3/changelog' }] },
             { text: 'Para jogadores', items: [
