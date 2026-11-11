@@ -4,11 +4,11 @@ title: Attitude instruments
 
 # Attitude instruments
 
-The experimental Attitude Reference Unit measures an aircraft's pitch, roll, heading, turn rate, vertical speed and slip. It publishes readings across the avionics cable network. The experimental Attitude Indicator displays pitch and roll on a Modular Table. Both blocks are creative-only in version 0.4.0-beta.2.
+The Attitude Reference Unit measures an aircraft's pitch, roll, heading, turn rate, vertical speed and slip. It publishes readings across the avionics cable network. The Attitude Indicator displays pitch and roll on a Modular Table. Both instruments can be crafted.
 
 ## Attitude Reference Unit
 
-Place the unit on the aircraft and connect a Wire Connector on it to the avionics network. The copper marker identifies its Nose axis; the brass marker identifies Up. These directions must be perpendicular. Use the Create Wrench on a face to set Nose, then use the wrench on the unit again to set Up. The block itself does not need to rotate. A newly placed unit uses the direction you faced for Nose and the block's top for Up.
+Place the unit on the aircraft and connect a Wire Connector on it to the avionics network. The copper marker identifies its Nose axis; the brass marker identifies Up. These directions must be perpendicular. Use the Create Wrench on a face to set Nose; open the unit with an empty hand to configure Up. The block itself does not need to rotate. A newly placed unit uses the direction you faced for Nose and the block's top for Up.
 
 If the aircraft rests at a small angle, open the unit with an empty hand and choose Calibrate level to treat the current pitch and roll as zero. Calibration is available when both angles are within 15° of level. Reset calibration clears the offsets. Damping cycles through Off, Light and Strong to smooth the published attitude values.
 
@@ -18,7 +18,7 @@ On a moving aircraft, the unit reports pitch (nose up is positive), roll (right 
 
 Install the module on a Modular Table by right-clicking with it in hand. It occupies 2 × 2 cells and can span joined tables. A floor-mounted table uses a slanted housing; wall and ceiling tables use a flat plate.
 
-Connect the table to the same cable network as an Attitude Reference Unit. The indicator uses the nearest usable unit on the same aircraft. Right-click the installed module with an empty hand to open its screen and inspect pitch, roll and source states. The display uses a simpler pitch ladder with marks every 10° and a bank index with 30° and 60° marks. Its colors shift between day and night, and the altitude reading appears in a large band along the bottom. A speed band also appears with a temporary simulated value in blocks per second; it is not a measured aircraft speed.
+Connect the table to the same cable network as an Attitude Reference Unit. The indicator uses the nearest usable unit on the same aircraft. Right-click the installed module with an empty hand to open its screen and inspect pitch, roll and source states. The display uses a simpler pitch ladder with marks every 10° and a bank index with 30° and 60° marks. Its colors shift between day and night, and the altitude reading appears in a large band along the bottom. The optional speed tape reads the nearest usable Velocity Sensor on the same aircraft and network, in blocks per second. Point the sensor toward the aircraft nose; reverse movement produces a negative reading. Without a connected source, the tape is hidden.
 
 - A usable reference unit shows the artificial horizon. Nose-up moves the horizon down; right-wing-down is positive roll.
 - A nose near vertical shows a small amber ATT flag while holding the last defined roll.

@@ -25,7 +25,7 @@ Sensores aviônicos, instrumentos de atitude e interfaces CC:Tweaked para Create
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge
-- **Versão:** 0.4.0-beta.2
+- **Versão:** 0.4.1
 - **Guias:** sensores, instrumentos de atitude, aviônicos, cabeamento, tutoriais Ponder, configurações e Computer Craft
 
 [Abrir a documentação de Aeronautics: Fly by Instruments](/pt-BR/mods/fly-by-instruments/)

@@ -7,9 +7,9 @@ description: Avionics sensors, redstone outputs, and CC:Tweaked interfaces for C
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1766429.svg)](https://www.curseforge.com/minecraft/mc-mods/aeronautics-fly-by-instruments)
 
-Aeronautics: Fly by Instruments adds avionics blocks for Create Aeronautics ships. Radar Altimeters and Terrain Scanners measure the world around a craft and expose readings through redstone and CC:Tweaked. The Avionics Computer turns sensor readings into GPWS alerts, while a Modular Table combines warning lamps, buzzers and an FMS. Attitude instruments add an experimental artificial horizon.
+Aeronautics: Fly by Instruments adds avionics blocks for Create Aeronautics ships. Radar Altimeters and Terrain Scanners measure the world around a craft and expose readings through redstone and CC:Tweaked. The Avionics Computer turns sensor readings into GPWS alerts, while a Modular Table combines warning lamps, buzzers and an FMS. Attitude instruments add an artificial horizon.
 
-**Documentation reflects Aeronautics: Fly by Instruments 0.4.0-beta.2** · Minecraft 1.21.1 · NeoForge.
+**Documentation reflects Aeronautics: Fly by Instruments 0.4.1** · Minecraft 1.21.1 · NeoForge.
 
 ![Radar Altimeter model](../assets/radar-altimeter.png)
 
@@ -25,7 +25,7 @@ Aeronautics: Fly by Instruments adds avionics blocks for Create Aeronautics ship
 - [Configuration](player/configuration)
 - [Computer Craft](player/computer-craft)
 
-The Network Bridge, Attitude Reference Unit and Attitude Indicator are Experimental and creative-only. The other avionics blocks can be crafted. Computer Craft contains all CC:Tweaked and Lua instructions in one place.
+The Network Bridge remains Experimental and creative-only. The other avionics blocks, including both attitude instruments, can be crafted. Computer Craft contains all CC:Tweaked and Lua instructions in one place.
 
 | | |
 | --- | --- |

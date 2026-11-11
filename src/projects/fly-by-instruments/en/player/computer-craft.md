@@ -6,6 +6,8 @@ title: Computer Craft
 
 CC:Tweaked is an in-game integration for reading sensors, building displays and automation, querying the avionics network, managing FMS waypoints, and responding to Avionics Computer (GPWS) alerts. All code examples and peripheral APIs are collected here for players.
 
+CC:Tweaked is optional. Sensors, redstone outputs, the avionics network, GPWS, and cockpit instruments work without it. Install it on both the client and server to use the peripherals and Lua events described here.
+
 ## Connect a computer
 
 Install CC:Tweaked 1.120.0 or newer. Place a computer or wired modem against the block you want to query, or connect it through CC:Tweaked's wired modem network. Sensor, Avionics Computer, and table peripherals are separate from the avionics network.
@@ -280,12 +282,13 @@ Channels are `terrain`, `pull_up`, `sink_rate`, `dont_sink`, `too_low`, `bank_an
 
 ## Avionics Network Bridge API
 
-The **Avionics Network Bridge** is an Experimental, creative-only block. It joins the [avionics network](avionics-network) through a Wire Connector and lets a computer see the network's layout as the `avionics_network_bridge` peripheral. It exposes topology only: for sensor readings with roles and GPWS alerts, use the [Avionics Computer](#avionics-computer-api); each sensor also keeps its own peripheral.
+The **Avionics Network Bridge** is an Experimental, creative-only block. It joins the [avionics network](avionics-network) through a Wire Connector and lets a computer see the network's layout as the `avionics_network_bridge` peripheral. It exposes topology and published network signals through `getSignals()`. For sensor readings with roles and GPWS alerts, use the [Avionics Computer](#avionics-computer-api); each sensor also keeps its own peripheral.
 
 | Method | Returns |
 | --- | --- |
 | `getNetworkStatus()` | `{status, connected, complete, endpointCount, wireCount}` |
 | `getConnectedDevices()` | A list of `{type, x, y, z}`, coordinates relative to the bridge |
+| `getSignals()` | Published channels, including `velocity.axial`, with device, relative coordinates, status, value, unit and game time |
 
 `status` is `disconnected`, `connected`, `incomplete` or `limit_exceeded`; `complete` is false for the last two. On an incomplete network the counts are lower bounds and `getConnectedDevices()` returns an empty list, so a partial result is never mistaken for the whole network. The `avionics_network_changed(attachment, status)` event fires when the network changes, with the same table as `getNetworkStatus()`.
 

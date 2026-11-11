@@ -107,7 +107,7 @@ export default defineConfig({
             },
           ],
           '/en/mods/fly-by-instruments/': [
-            { text: 'Aeronautics: Fly by Instruments - 0.4.0-beta.2', items: [
+            { text: 'Aeronautics: Fly by Instruments - 0.4.1', items: [
               { text: 'Overview', link: '/en/mods/fly-by-instruments/' },
               { text: 'Changelog', link: '/en/mods/fly-by-instruments/changelog' }
             ] },
@@ -246,7 +246,7 @@ export default defineConfig({
             },
           ],
           '/pt-BR/mods/fly-by-instruments/': [
-            { text: 'Aeronautics: Fly by Instruments - 0.4.0-beta.2', items: [
+            { text: 'Aeronautics: Fly by Instruments - 0.4.1', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/fly-by-instruments/' },
               { text: 'Changelog', link: '/pt-BR/mods/fly-by-instruments/changelog' }
             ] },

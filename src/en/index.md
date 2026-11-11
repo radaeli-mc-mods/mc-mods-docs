@@ -25,7 +25,7 @@ Avionics sensors, attitude instruments and CC:Tweaked interfaces for Create Aero
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge
-- **Version:** 0.4.0-beta.2
+- **Version:** 0.4.1
 - **Guides:** sensors, attitude instruments, avionics, wiring, Ponder tutorials, configuration, and Computer Craft
 
 [Open Aeronautics: Fly by Instruments documentation](/en/mods/fly-by-instruments/)

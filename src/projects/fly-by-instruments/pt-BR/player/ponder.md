@@ -23,9 +23,9 @@ Passe o mouse sobre um item compatível no inventário e segure a tecla **Ponder
 | Construindo um painel modular | Modular Table, lâmpadas, buzzer, FMS |
 | Entendendo e silenciando alertas | Avionics Computer, lâmpadas, buzzer |
 | Navegando com waypoints | FMS, FMS Compass |
-| Definindo o referencial da aeronave | Attitude Reference Unit (Experimental) |
-| Lendo o horizonte artificial | Attitude Indicator (Experimental) |
-| Fontes, fitas e bandeiras ATT | Attitude Indicator (Experimental) |
+| Definindo o referencial da aeronave | Attitude Reference Unit |
+| Lendo o horizonte artificial | Attitude Indicator |
+| Fontes, fitas e bandeiras ATT | Attitude Indicator |
 
 Para a primeira cabine, assista à instalação dos fios e depois a **Montando sua primeira proteção GPWS**. Acrescente os tutoriais de scanners e painel conforme a cabine crescer. Para navegação, siga o tutorial do FMS até vincular a bússola e inseri-la numa Navigation Table do Aeronautics.
 

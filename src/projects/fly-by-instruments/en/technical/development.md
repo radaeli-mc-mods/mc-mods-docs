@@ -8,7 +8,7 @@ This guide is for people building or extending the mod. Player-facing CC:Tweaked
 
 ## Build environment
 
-The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Development also uses Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+, and R-Ui Lib 0.9.0+. Create Aeronautics is bundled in the mod; Create, Aeronautics, Sable, CC:Tweaked, and R-Ui Lib are local compile/runtime dependencies for development.
+The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Development also uses Create 6.0.10+, Create Aeronautics 1.3+, Sable 2.0.5, CC:Tweaked 1.120.0+, and R-Ui Lib 0.10.0+. Create Aeronautics is installed as its bundled distribution; Create, Aeronautics, Sable, CC:Tweaked, and R-Ui Lib are local compile/runtime dependencies for development.
 
 ```powershell
 .\gradlew.bat build
@@ -16,6 +16,22 @@ The current source targets Java 21, Minecraft 1.21.1, and NeoForge 21.1.236. Dev
 ```
 
 The source repository's [development guide](https://github.com/radaelilucca/mc-fly-by-instruments/blob/main/docs/development.md) documents dependency JAR configuration, GameTest tasks, and release scope. Start from the [mod source](https://github.com/radaelilucca/mc-fly-by-instruments).
+
+VS Code also provides the **Run NeoForge Client (without CC:Tweaked)** task.
+
+## Optional CC:Tweaked integration
+
+CC:Tweaked is a compile-time API dependency and an optional runtime integration. The mod registers its computer integration only when `computercraft` is loaded. Core block entities publish through CC-independent event interfaces; peripheral instances are created lazily and cached per block entity.
+
+Use `-PwithoutComputerCraft` to omit CC:Tweaked from the development runtime while retaining the API for compilation. Also remove any manually installed CC:Tweaked JAR from the selected development instance.
+
+```powershell
+.\gradlew.bat -PwithoutComputerCraft test
+.\gradlew.bat -PwithoutComputerCraft -PtableGameTests runGameTestServer
+.\gradlew.bat -PwithoutComputerCraft runClient
+```
+
+With this flag, `test` runs the dedicated absence regression test. Run `.\gradlew.bat test build` separately for the full suite with CC:Tweaked.
 
 ## Ponder development
 

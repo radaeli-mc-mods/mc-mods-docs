@@ -8,11 +8,11 @@ title: Instalação e uso
 
 - Minecraft 1.21.1 e NeoForge 21.1.236 ou mais recente
 - Create 6.0.10 ou mais recente e Create Aeronautics 1.3 ou mais recente
-- Sable 2.0.5 ou mais recente
-- CC:Tweaked 1.120.0 ou mais recente
-- R-Ui Lib 0.9.0 ou mais recente
+- Sable 2.0.5 ou mais recente, abaixo de 2.1.0
+- CC:Tweaked 1.120.0 ou mais recente (opcional, para computadores e automação em Lua)
+- R-Ui Lib 0.10.0 ou mais recente
 
-Create Aeronautics vem incluído no mod. Instale Aeronautics: Fly by Instruments e suas dependências necessárias no cliente e no servidor.
+Instale separadamente a distribuição bundled do Create Aeronautics. Instale Aeronautics: Fly by Instruments e suas dependências necessárias no cliente e no servidor.
 
 ## Comece a jogar
 
@@ -24,7 +24,7 @@ Segure **Shift** sobre qualquer bloco ou módulo no inventário para ver um resu
 
 ## Receitas
 
-Todos os blocos estão na aba criativa **Aeronautics: Fly by Instruments**. A Network Bridge, a Attitude Reference Unit e o Attitude Indicator são exclusivos do criativo. Os demais blocos listados têm receitas; consulte seu visualizador de receitas. Os ingredientes principais são:
+Todos os blocos estão na aba criativa **Aeronautics: Fly by Instruments**. Somente a Network Bridge é exclusiva do criativo. Os demais blocos listados têm receitas; consulte seu visualizador de receitas. Os ingredientes principais são:
 
 | Item | Feito de |
 | --- | --- |

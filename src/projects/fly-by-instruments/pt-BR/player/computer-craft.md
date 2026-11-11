@@ -6,6 +6,8 @@ title: Computer Craft
 
 CC:Tweaked permite ler sensores, criar telas e automações, consultar a rede aviônica, gerenciar waypoints FMS e reagir aos alertas do Avionics Computer (GPWS) durante o jogo. Todos os exemplos de código e APIs dos peripherals para jogadores estão reunidos aqui.
 
+CC:Tweaked é opcional. Sensores, saídas de redstone, rede aviônica, GPWS e instrumentos do cockpit funcionam sem ele. Instale-o no cliente e no servidor para usar os peripherals e eventos Lua descritos aqui.
+
 ## Conectar um computador
 
 Instale CC:Tweaked 1.120.0 ou mais recente. Coloque um computador ou modem cabeado encostado no bloco que deseja consultar, ou conecte-o pela rede de modems cabeados do CC:Tweaked. Peripherals de sensores, do Avionics Computer e da mesa são independentes da rede aviônica.
@@ -280,12 +282,13 @@ Os canais são `terrain`, `pull_up`, `sink_rate`, `dont_sink`, `too_low`, `bank_
 
 ## Avionics Network Bridge API
 
-A **Avionics Network Bridge** (no jogo em português, Ponte da Rede de Aviônicos) é um bloco Experimental disponível só no criativo. Ela entra na [rede aviônica](avionics-network) por um Conector de Fio e mostra o desenho da rede a um computador como o peripheral `avionics_network_bridge`. Ela expõe só a topologia: para leituras de sensores com papéis e alertas do GPWS, use o [Avionics Computer](#avionics-computer-api); cada sensor também mantém o próprio peripheral.
+A **Avionics Network Bridge** (no jogo em português, Ponte da Rede de Aviônicos) é um bloco Experimental disponível só no criativo. Ela entra na [rede aviônica](avionics-network) por um Conector de Fio e mostra o desenho da rede a um computador como o peripheral `avionics_network_bridge`. Ela expõe a topologia e os sinais publicados na rede por `getSignals()`. Para leituras de sensores com papéis e alertas do GPWS, use o [Avionics Computer](#avionics-computer-api); cada sensor também mantém o próprio peripheral.
 
 | Método | Retorna |
 | --- | --- |
 | `getNetworkStatus()` | `{status, connected, complete, endpointCount, wireCount}` |
 | `getConnectedDevices()` | Uma lista de `{type, x, y, z}`, com coordenadas relativas à ponte |
+| `getSignals()` | Canais publicados, incluindo `velocity.axial`, com dispositivo, coordenadas relativas, estado, valor, unidade e tick |
 
 `status` é `disconnected`, `connected`, `incomplete` ou `limit_exceeded`; `complete` é falso nos dois últimos. Numa rede incompleta as contagens são limites inferiores e `getConnectedDevices()` retorna uma lista vazia, para que um resultado parcial nunca pareça a rede inteira. O evento `avionics_network_changed(attachment, status)` dispara quando a rede muda, com a mesma tabela de `getNetworkStatus()`.
 

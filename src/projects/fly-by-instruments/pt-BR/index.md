@@ -7,9 +7,9 @@ description: Sensores aviônicos, saídas de redstone e integração CC:Tweaked 
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1766429.svg)](https://www.curseforge.com/minecraft/mc-mods/aeronautics-fly-by-instruments)
 
-Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O Avionics Computer transforma as leituras em alertas GPWS, enquanto a Modular Table combina lâmpadas, buzzers e um FMS. Os instrumentos de atitude acrescentam um horizonte artificial experimental.
+Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create Aeronautics. Radar Altimeters e Terrain Scanners medem o mundo ao redor da aeronave e disponibilizam leituras por redstone e CC:Tweaked. O Avionics Computer transforma as leituras em alertas GPWS, enquanto a Modular Table combina lâmpadas, buzzers e um FMS. Os instrumentos de atitude acrescentam um horizonte artificial.
 
-**Documentação referente à versão 0.4.0-beta.2 de Aeronautics: Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
+**Documentação referente à versão 0.4.1 de Aeronautics: Fly by Instruments** · Minecraft 1.21.1 · NeoForge.
 
 ![Modelo do Radar Altimeter](../assets/radar-altimeter.png)
 
@@ -25,7 +25,7 @@ Aeronautics: Fly by Instruments adiciona blocos aviônicos para naves do Create 
 - [Configurações](player/configuration)
 - [Computer Craft](player/computer-craft)
 
-A Network Bridge, a Attitude Reference Unit e o Attitude Indicator são Experimentais e exclusivos do criativo. Os outros blocos aviônicos podem ser fabricados. Computer Craft reúne as instruções de CC:Tweaked e Lua em uma só página.
+A Network Bridge continua Experimental e exclusiva do criativo. Os outros blocos aviônicos, incluindo os dois instrumentos de atitude, podem ser fabricados. Computer Craft reúne as instruções de CC:Tweaked e Lua em uma só página.
 
 | | |
 | --- | --- |

@@ -5,34 +5,34 @@ description: "Release history for Aeronautics: Fly by Instruments."
 
 # Aeronautics: Fly by Instruments changelog
 
-## [0.4.0-beta.2] - 2026-11-07
-
-### Added
-
-- Added a temporary simulated speed readout to the Attitude Indicator.
+## [0.4.1] - 2026-11-11
 
 ### Changed
 
-- Redesigned the Attitude Indicator display with day and night colors, simpler pitch and bank markings, and a larger altitude readout.
-- Updated the Attitude Indicator housing with painted iron and polished brass trim.
+- Made CC: Tweaked optional so sensors, cockpit instruments and GPWS can be used without it.
+
+## [0.4.0] - 2026-11-08
+
+### Added
+
+- Added the Attitude Reference Unit, which measures pitch, roll, heading, turn rate, vertical speed and slip, with level calibration and optional damping.
+- Added the Attitude Indicator for Modular Tables, showing readings from a connected Attitude Reference Unit with optional altitude and speed tapes.
+- Added access to Attitude Reference Unit settings and readings through CC:Tweaked and the avionics network.
+- Added Velocity Sensor readings to the avionics network and the Attitude Indicator's optional speed tape.
+- Added crafting recipes for the Attitude Reference Unit and Attitude Indicator.
+- Added three Ponder tutorials in English and Brazilian Portuguese for the new instruments.
+
+### Changed
+
+- Updated the Avionics Computer's bank warning to use a connected Attitude Reference Unit when available.
+- Updated the Attitude Indicator display with day and night colors, simpler pitch and bank markings, a larger altitude readout, and a painted iron housing with polished brass trim.
+- Updated the Attitude Reference Unit recipe to use iron bars, an electron tube, precision mechanisms, a gyroscopic mechanism and glass.
+- Removed the Experimental label from the Attitude Reference Unit and Attitude Indicator.
 
 ### Fixed
 
 - Fixed the Attitude Indicator's selection box extending too far from wall and ceiling tables.
 
-## [0.4.0-beta.1] - 2026-11-06
-
-### Added
-
-- Added the Attitude Reference Unit, a configurable aircraft instrument that measures pitch, roll, heading, turn rate, vertical speed and slip, with level calibration and optional damping.
-- Added CC:Tweaked and avionics network access to Attitude Reference Unit readings and settings.
-- Added the Experimental, creative-only Attitude Indicator for Modular Tables, displaying pitch and roll from a connected Attitude Reference Unit with an optional Radar Altimeter tape and source status.
-- Added three Ponder tutorials in English and Brazilian Portuguese for setting up and using the Attitude Reference Unit and Attitude Indicator.
-
-### Changed
-
-- The Avionics Computer uses a valid Attitude Reference Unit on the same aircraft for its bank warning, and falls back to its own orientation +
-+## [0.3.0]
 ## [0.3.0] - 2026-11-01
 
 ### Added
