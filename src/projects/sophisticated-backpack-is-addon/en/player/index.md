@@ -9,6 +9,7 @@ Install Digital Storage Expansion on both the client and server, with the matchi
 
 | Minecraft | Loader | Sophisticated Backpacks | Sophisticated Core |
 | --- | --- | --- | --- |
+| 26.1.2 | NeoForge 26.1.2.124+ | 3.26.20+ | 1.5.34+ |
 | 1.21.1 | NeoForge 21.1.236 or newer | 3.26.3 or newer | 1.5.1 or newer |
 | 1.20.1 | Forge 47.4.10 or newer | 3.26.12 or newer | 1.5.10 or newer |
 
@@ -21,12 +22,14 @@ Choose any supported storage mod and its compatible version for your game and lo
 | Tom's Simple Storage | 2.4.2 or newer | 1.7.1 |
 | Super Cool Calculator (SCC 1.5.3+) | NeoForge 1.21.1 | Not supported |
 
+For Minecraft **26.1.2**, use Java **25** and the matching versions: **AE2 26.1.13-beta** with **GuideME 26.1.14-beta**, **Refined Storage 3.2.1**, **Tom's Storage 2.10.3**, or **SCC 1.6.5**. The table above lists backend versions for the earlier game versions.
+
 Storage mods are optional dependencies. You can install more than one; each upgrade remains linked to the network you selected for it. All four networks support item upgrades where available. Remote Pump's fluid transfer works with AE2 and Refined Storage on both loaders, and SCC on NeoForge; Tom's Simple Storage is item-only.
 
 ## First steps
 
 1. Craft one of the eight storage upgrades from its matching advanced Sophisticated Backpacks upgrade, 3 diamonds, 2 Ender Pearls, and 2 redstone dust. Remote Crafting uses the regular Crafting Upgrade with the same materials.
-2. Hold that upgrade and **Shift-right-click** a compatible network block. Use an ME Wireless Access Point for AE2, a Controller for Refined Storage, a Storage Terminal for Tom's Simple Storage, or a Network Antenna for SCC on NeoForge 1.21.1.
+2. Hold that upgrade and **Shift-right-click** a compatible network block. Use an ME Wireless Access Point for AE2, a Controller for Refined Storage, a Storage Terminal for Tom's Simple Storage, or a Network Antenna for SCC on NeoForge 1.21.1 or 26.1.2.
 3. Put the linked upgrade into a backpack upgrade slot and open its tab to configure it.
 4. Use the upgrade's controls or automatic behavior in game. See [Linking](linking), [Filters and source priority](filters), and the [upgrade catalog](upgrades).
 

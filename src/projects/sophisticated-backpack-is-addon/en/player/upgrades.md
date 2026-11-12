@@ -22,3 +22,4 @@ The icons below show each upgrade unlinked. Once linked, an upgrade's screen dar
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_crafting_upgrade.png" alt="Remote Crafting" width="32"> | **Remote Crafting** | Choose a recipe in the backpack and fill its empty crafting slots with ingredients from the backpack and linked network. Ingredients already in the grid stay in place. |
 
 Use [Linking](linking) to connect an upgrade. See [Filters and source priority](filters) for allow/block filters, stored-item matching, and Backpack first versus Linked network first.
+On **NeoForge 26.1.2**, all nine upgrades also support **SCC 1.6.5**, with the same plain-fluid limitation for Pump.

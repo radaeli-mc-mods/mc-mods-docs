@@ -5,7 +5,7 @@ description: Configuration files and in-game settings for Digital Storage Expans
 
 # Configuration
 
-Version 0.5.0 does not add player- or server-editable configuration files of its own. There is no Digital Storage Expansion TOML, JSON, or other config file to create or edit.
+On Forge 1.20.1 and NeoForge 1.21.1 / 26.1.2, version 0.5.0 does not add player- or server-editable configuration files of its own. There is no Digital Storage Expansion TOML, JSON, or other config file to create or edit.
 
 The upgrade's filters, source priority, and function settings are saved on each upgrade item and changed in its backpack tab. For details, see [Filters and source priority](filters) and the [upgrade catalog](upgrades).
 

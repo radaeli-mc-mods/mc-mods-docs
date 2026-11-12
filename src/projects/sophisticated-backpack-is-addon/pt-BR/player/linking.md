@@ -5,7 +5,7 @@ description: Vincule um upgrade remoto ao AE2, Refined Storage ou Tom's Simple S
 
 # Vínculo
 
-Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os nove tipos usam o mesmo método: podem se conectar ao Applied Energistics 2, Refined Storage ou Tom's Simple Storage. Com SCC 1.5.3 ou mais recente no NeoForge 1.21.1, também podem se conectar ao Super Cool Calculator. Não é preciso obter uma variante do upgrade para cada rede.
+Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os nove tipos usam o mesmo método: podem se conectar ao Applied Energistics 2, Refined Storage ou Tom's Simple Storage. Com SCC 1.5.3+ no NeoForge 1.21.1 ou SCC 1.6.5 no NeoForge 26.1.2, também podem se conectar ao Super Cool Calculator. Não é preciso obter uma variante do upgrade para cada rede.
 
 ## Vincular um upgrade
 
@@ -15,7 +15,7 @@ Cada upgrade remoto guarda seu próprio vínculo com um ponto da rede. Os nove t
    - **AE2:** ME Wireless Access Point.
    - **Refined Storage:** Controller.
    - **Tom's Simple Storage:** Storage Terminal.
-   - **SCC (somente NeoForge 1.21.1):** Network Antenna.
+   - **SCC (NeoForge 1.21.1 ou 26.1.2):** Network Antenna.
 4. Uma mensagem confirma quando o vínculo é salvo. Coloque o upgrade em um slot de upgrade da mochila e abra sua aba para configurá-lo.
 
 ## Como fica um upgrade vinculado
@@ -39,3 +39,5 @@ Para trocar de rede, segure o upgrade e dê Shift + clique direito em um bloco c
 Para desvincular sem perder as configurações, coloque o upgrade sozinho em uma grade de criação. Isso remove o ponto da rede. A criação ou a troca de vínculo fica temporariamente bloqueada enquanto houver itens ou fluidos aguardando recuperação; recupere-os primeiro.
 
 O upgrade pode indicar que a rede está indisponível se o mod de integração estiver ausente, o ponto estiver descarregado ou não existir, a dimensão estiver indisponível ou o acesso for negado. O vínculo é mantido se o mod da rede estiver ausente.
+
+Na versão 26.1.2, uma entrega de Pickup com resultado incerto permanece salva e pausa as tentativas automáticas. Troca e remoção do vínculo continuam bloqueadas enquanto essa reserva existir.

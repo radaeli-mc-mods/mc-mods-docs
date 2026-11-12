@@ -22,3 +22,4 @@ Os ícones abaixo mostram cada upgrade sem vínculo. Depois de vinculado, a tela
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_crafting_upgrade.png" alt="Remote Crafting" width="32"> | **Remote Crafting** | Escolha uma receita na mochila e preencha os espaços vazios da bancada com ingredientes da mochila e da rede vinculada. Os ingredientes que já estão na bancada permanecem no lugar. |
 
 Consulte [Vínculo](linking) para conectar um upgrade. Veja [Filtros e prioridade de origem](filters) para as listas permitidas/bloqueadas, correspondência com itens guardados e Backpack first ou Linked network first.
+No **NeoForge 26.1.2**, os nove upgrades também funcionam com **SCC 1.6.5**, mantendo a limitação de fluidos sem componentes adicionais no Pump.

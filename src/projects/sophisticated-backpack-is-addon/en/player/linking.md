@@ -5,7 +5,7 @@ description: Link a remote upgrade to AE2, Refined Storage, or Tom's Simple Stor
 
 # Linking
 
-Each remote upgrade stores its own link to one network endpoint. All nine upgrade types use the same linking method; each type can link to Applied Energistics 2, Refined Storage, or Tom's Simple Storage. On NeoForge 1.21.1 with SCC 1.5.3 or newer installed, they can also link to Super Cool Calculator. You do not need a network-specific version of the upgrade.
+Each remote upgrade stores its own link to one network endpoint. All nine upgrade types use the same linking method; each type can link to Applied Energistics 2, Refined Storage, or Tom's Simple Storage. On NeoForge 1.21.1 with SCC 1.5.3+, or 26.1.2 with SCC 1.6.5, they can also link to Super Cool Calculator. You do not need a network-specific version of the upgrade.
 
 ## Link an upgrade
 
@@ -15,7 +15,7 @@ Each remote upgrade stores its own link to one network endpoint. All nine upgrad
    - **AE2:** ME Wireless Access Point.
    - **Refined Storage:** Controller.
    - **Tom's Simple Storage:** Storage Terminal.
-   - **SCC (NeoForge 1.21.1 only):** Network Antenna.
+   - **SCC (NeoForge 1.21.1 or 26.1.2):** Network Antenna.
 4. A confirmation appears when the link is saved. Put the upgrade into a backpack upgrade slot and open its tab to configure the function.
 
 ## How a linked upgrade looks
@@ -39,3 +39,5 @@ To switch networks, hold the upgrade and Shift-right-click a compatible block in
 To unlink while keeping the settings, craft the upgrade by itself in a crafting grid. This removes its network endpoint. Crafting or relinking is temporarily blocked while an upgrade has items or fluids pending recovery; recover those first.
 
 An upgrade can report that its network is unavailable if the backend mod is missing, the endpoint is unloaded or missing, its dimension is unavailable, or access is denied. The stored link is retained when a backend mod is absent.
+
+On 26.1.2, an uncertain Pickup delivery stays saved and pauses automatic retries. Relinking and unlinking remain blocked while that reservation exists.

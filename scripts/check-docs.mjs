@@ -113,6 +113,7 @@ for (const locale of locales) {
     if (!existsSync(path)) continue
     const body = readFileSync(path, 'utf8')
     if (!body.includes('SCC 1.5.3')) failures.push(`Missing the SCC version scope in ${locale} Digital Storage Expansion page: ${relative(root, path)}`)
+    if (!body.includes('26.1.2') || !body.includes('SCC 1.6.5')) failures.push(`Missing NeoForge 26.1.2 / SCC 1.6.5 scope in ${locale} Digital Storage Expansion page: ${relative(root, path)}`)
   }
   for (const page of ['player/linking.md', 'player/index.md']) {
     const path = join(sourceRoot, 'projects', 'sophisticated-backpack-is-addon', locale, page)

@@ -1,36 +1,59 @@
 ---
 title: Build e verificação do artefato
-description: Compile e inspecione o artefato Forge de produção de Digital Storage Expansion.
+description: Compile os três targets e execute testes de lógica, redes nativas e verificação dos artefatos.
 ---
 
 # Build e verificação do artefato
 
-Esta referência cobre o módulo Forge 1.20.1 no código-fonte da versão 0.4.1. Execute o wrapper Gradle na raiz do repositório com Java 21 para o Gradle e uma toolchain Java 17 para compilação e runtime Forge.
+O código usa builds independentes para Forge 1.20.1 (Java 17), NeoForge 1.21.1 (Java 21) e NeoForge 26.1.2 (Java 25). Instale os três JDKs e Node.js para o verificador de artefatos. O wrapper Gradle da raiz coordena os targets:
 
 ```powershell
-.\gradlew.bat :forge:build
-.\gradlew.bat :forge:verifyForgeProductionJar
-.\gradlew.bat :forge:testForgeProductionJarVerification
+.\gradlew.bat checkAll
+.\gradlew.bat buildAll
 ```
 
-O build inclui as duas verificações de artefato por `:forge:check`, além dos testes existentes e GameTests Forge. O verificador de produção executa após `reobfJar` e abre seu JAR em `forge/build/libs`. O artefato de desenvolvimento com nomes legíveis em `forge/build/devlibs` não é o arquivo de distribuição.
+`checkAll` executa os testes Java comuns e as verificações de cada target. `buildAll` também compila e inspeciona os três JARs de distribuição. Não exige `clean`. Identidade e versão vêm do `gradle.properties` da raiz; `-Pmod_version=<versão>` é propagado a todos os targets.
 
-## O que a verificação do artefato comprova
+Os JARs de distribuição ficam em `targets/<minecraft>/<loader>/build/libs/`. As fontes Java comuns e as texturas compatíveis são incluídas em cada artefato. Os mods de armazenamento e as fixtures de integração não são incorporados.
 
-O verificador confere a declaração `MixinConfigs` do manifesto, a referência explícita ao refmap na configuração Mixin, o refmap e a classe do accessor empacotados e o mapeamento de `pickupDelay` para `f_31986_:I` nos contextos padrão e `searge`. Também confere a declaração Jar-in-Jar e o runtime MixinExtras incorporado, necessário ao contexto de pickup. A versão incorporada é 0.4.1, com o intervalo Jar-in-Jar `[0.4.1,)` para seleção compartilhada.
+## Dependências e perfis NeoForge 26.1.2
 
-A tarefa de regressão rejeita cópias temporárias sem referência ao refmap, sem refmap, sem mapeamento do accessor, com mapeamento `searge` incorreto, sem manifesto, sem metadados Jar-in-Jar ou sem declaração MixinExtras. Ela usa o mesmo verificador da tarefa de produção.
+O build usa NeoForge 26.1.2.124, Java 25, ModDevGradle 2.0.148 e Gradle 9.4.0. `targets/26.1.2/dependencies.lock.json` registra versões auditadas, origens imutáveis de download e hashes SHA-256. Artefatos públicos ausentes são baixados e verificados antes da compilação. SCC 1.6.5 é versionado em `libs/26.1.2/`, acompanhado da licença. Nenhuma dependência usa um caminho em Downloads.
 
-Para inspecionar um JAR compilado anteriormente:
+A partir de `targets/26.1.2`, execute um perfil isolado:
+
+```powershell
+.\gradlew.bat :neoforge:check -PbackendProfile=all
+.\gradlew.bat :neoforge:runClient -PbackendProfile=all
+.\gradlew.bat :neoforge:runServer -PbackendProfile=all
+.\gradlew.bat :neoforge:runRestartVerify -PbackendProfile=all
+```
+
+Os perfis são `none`, `ae2`, `rs`, `toms`, `scc` e `all`. Core e Backpacks sempre são carregados; GuideME acompanha AE2. As verificações conferem os backends realmente carregados, executam JUnit com o servidor efêmero oficial e GameTests com blocos, redes e upgrades nativos, acionados pelos fluxos de menu ou tick. Perfis obrigatórios vazios ou incompletos e skips JUnit inesperados fazem o build falhar.
+
+Relatórios XML e HTML JUnit ficam em `neoforge/build/test-results/<perfil>` e `neoforge/build/reports/tests/<perfil>`. Sumários e logs de integração nativa ficam em `neoforge/build/reports/integration/<perfil>`. O CI executa os seis perfis separadamente e publica os relatórios mesmo em falha.
+
+O perfil `all` também inicia dois JVMs separados sobre o mesmo mundo de teste. O primeiro salva mochilas com reservas conhecidas e entregas incertas; o segundo verifica o conteúdo dos backends, recupera os recursos conhecidos uma vez e mantém entregas incertas em quarentena. `runRestartVerify` executa as duas fases. Relatórios XML nativos e logs ficam em `neoforge/build/reports/restart/<fase>`. Os hooks de preservação do mundo são exclusivos dos testes e não entram no JAR de produção.
+
+## Verificações dos artefatos
+
+Na raiz do repositório:
+
+```powershell
+.\gradlew.bat verify-forge-1.20.1
+.\gradlew.bat verify-neoforge-1.21.1
+.\gradlew.bat verify-neoforge-26.1.2
+```
+
+O verificador confere metadados, identidade de Minecraft e loader, versão, bytecode, nove upgrades, receitas, tags, traduções, modelos, referências locais a texturas, Mixins e ausência de código de dependências e fixtures.
+
+No Forge, também inspeciona o JAR de produção reobfuscado, seu refmap Mixin, o mapeamento do accessor e o runtime MixinExtras incorporado. Sete fixtures de artefatos danificados exercitam o mesmo verificador. Para inspecionar outro JAR Forge, execute a partir de `targets/1.20.1`:
 
 ```powershell
 .\gradlew.bat :forge:verifyForgeProductionJar -PforgeProductionJar=C:/path/to/addon.jar
+.\gradlew.bat :forge:testForgeProductionJarVerification
 ```
 
-Um caminho relativo é resolvido a partir da raiz do repositório. A opção muda somente o arquivo inspecionado; a tarefa continua dependendo de `reobfJar`. Artefatos inválidos fazem a tarefa falhar com um erro que descreve o contrato ausente.
+Caminhos relativos no override são resolvidos a partir de `targets/1.20.1`. O artefato com nomes legíveis em `forge/build/devlibs` não é o JAR de distribuição.
 
-## Verificações de runtime
-
-Verificações de artefato comprovam o empacotamento, não a compatibilidade em jogo. Carregue o JAR final em uma instalação isolada de Minecraft 1.20.1 com Java 17, Forge e Sophisticated Core/Backpacks. Teste a base suportada e as versões exatas usadas em um problema relatado. Valide o menu principal, um mundo novo e o carregamento de servidor dedicado separadamente das inicializações de desenvolvimento.
-
-Para Magnet, confira delay infinito de coleta (`32767`), delay finito, transferências parciais e coexistência com Pickup. Preserve as regras existentes de elegibilidade e inspecione o primeiro erro causal se surgir uma falha posterior de inicialização.
+Verificações de artefatos e automação de servidor não comprovam aparência da GUI nem comportamento multiplayer. Valide telas, controles sincronizados, ícones e animações de vínculo e dois jogadores com permissões diferentes em uma sessão separada de cliente e servidor dedicado. Migração de mundos entre versões de Minecraft não faz parte desse contrato de build.

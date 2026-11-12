@@ -5,7 +5,7 @@ description: Arquivos de configuração e opções no jogo de Digital Storage Ex
 
 # Configurações
 
-A versão 0.5.0 não adiciona arquivos de configuração editáveis por jogadores ou administradores de servidor. Não há arquivo TOML, JSON ou outro arquivo próprio de Digital Storage Expansion para criar ou editar.
+No Forge 1.20.1 e NeoForge 1.21.1 / 26.1.2, a versão 0.5.0 não adiciona arquivos de configuração editáveis por jogadores ou administradores de servidor. Não há arquivo TOML, JSON ou outro arquivo próprio de Digital Storage Expansion para criar ou editar.
 
 Os filtros, a prioridade de origem e as opções funcionais são salvos em cada item de upgrade e alterados pela aba dele na mochila. Consulte [Filtros e prioridade de origem](filters) e o [catálogo de upgrades](upgrades).
 
