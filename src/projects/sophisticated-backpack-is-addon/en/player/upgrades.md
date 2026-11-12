@@ -21,5 +21,7 @@ The icons below show each upgrade unlinked. Once linked, an upgrade's screen dar
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_pump_upgrade.png" alt="Remote Pump" width="32"> | **Remote Pump** | Transfer configured fluids between the backpack tank or network and containers, nearby fluid handlers, or world fluids. Tom's Simple Storage is item-only. |
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_crafting_upgrade.png" alt="Remote Crafting" width="32"> | **Remote Crafting** | Choose a recipe in the backpack and fill its empty crafting slots with ingredients from the backpack and linked network. Ingredients already in the grid stay in place. |
 
+With JEI installed on NeoForge 1.21.1, Remote Crafting can fill its grid from the backpack, player inventory, and linked network. Hold Shift while using the recipe transfer button to fill as many recipe batches as available items allow.
+
 Use [Linking](linking) to connect an upgrade. See [Filters and source priority](filters) for allow/block filters, stored-item matching, and Backpack first versus Linked network first.
 On **NeoForge 26.1.2**, all nine upgrades also support **SCC 1.6.5**, with the same plain-fluid limitation for Pump.

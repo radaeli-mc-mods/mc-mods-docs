@@ -7,7 +7,7 @@ description: Vincule upgrades do Sophisticated Backpacks ao AE2, Refined Storage
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1742266.svg)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-digital-storage-expansion)
 
-Conecte o Sophisticated Backpacks a uma rede de armazenamento digital existente. O mod adiciona nove upgrades funcionais, todos com o mesmo sistema de vínculo para Applied Energistics 2, Refined Storage ou Tom's Simple Storage. SCC 1.5.3+ é compatível com NeoForge 1.21.1; use SCC 1.6.5 no NeoForge 26.1.2. Remote Crafting preenche os espaços vazios da bancada com itens da mochila e da rede vinculada para uma receita escolhida. O mod não adiciona uma rede própria.
+Conecte o Sophisticated Backpacks a uma rede de armazenamento digital existente. O mod adiciona nove upgrades funcionais, todos com o mesmo sistema de vínculo para Applied Energistics 2, Refined Storage ou Tom's Simple Storage. SCC 1.5.3+ é compatível com NeoForge 1.21.1; use SCC 1.6.5 no NeoForge 26.1.2. Remote Crafting preenche os espaços vazios da bancada com itens da mochila e da rede vinculada para uma receita escolhida. Com JEI instalado no NeoForge 1.21.1, a bancada também funciona com o botão de transferência de receitas. O mod não adiciona uma rede própria.
 
 Cada upgrade se vincula a um ponto da rede e segue as regras de alcance e acesso dela. Os upgrades de itens funcionam com as quatro redes onde há suporte; Remote Pump transfere fluidos com AE2 e Refined Storage nos dois loaders e com SCC no NeoForge. Tom's Simple Storage só transfere itens.
 
