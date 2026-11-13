@@ -21,7 +21,9 @@ Os ícones abaixo mostram cada upgrade sem vínculo. Depois de vinculado, a tela
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_pump_upgrade.png" alt="Remote Pump" width="32"> | **Remote Pump** | Transfere fluidos configurados entre o tanque da mochila ou a rede e recipientes, blocos próximos com suporte a fluidos ou fluidos do mundo. Tom's Simple Storage só transfere itens. |
 | <img src="https://raw.githubusercontent.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/main/docs/gallery/upgrades/remote_crafting_upgrade.png" alt="Remote Crafting" width="32"> | **Remote Crafting** | Escolha uma receita na mochila e preencha os espaços vazios da bancada com ingredientes da mochila e da rede vinculada. Os ingredientes que já estão na bancada permanecem no lugar. |
 
-Com JEI instalado no NeoForge 1.21.1, Remote Crafting preenche a bancada com itens da mochila, do inventário do jogador e da rede vinculada. Segure Shift ao usar o botão de transferência de receitas para preencher o máximo de execuções que os itens disponíveis permitem.
+Com JEI instalado no Forge 1.20.1 ou NeoForge 1.21.1/26.1.2, Remote Crafting preenche a bancada com itens da mochila, do inventário do jogador e da rede vinculada. Segure Shift ao usar o botão de transferência de receitas para preencher o máximo de execuções que os itens disponíveis permitem. Com `Refill crafting grid` habilitado, o crafting também busca da rede o ingrediente consumido quando as fontes locais se esgotam.
 
 Consulte [Vínculo](linking) para conectar um upgrade. Veja [Filtros e prioridade de origem](filters) para as listas permitidas/bloqueadas, correspondência com itens guardados e Backpack first ou Linked network first.
 No **NeoForge 26.1.2**, os nove upgrades também funcionam com **SCC 1.6.5**, mantendo a limitação de fluidos sem componentes adicionais no Pump.
+
+Para ver controles manuais, transferências em lote e a opção de visibilidade do cliente, consulte o [guia de Remote Crafting](crafting).

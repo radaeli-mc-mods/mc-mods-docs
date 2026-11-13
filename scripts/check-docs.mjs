@@ -57,6 +57,7 @@ const digitalStorageExpansionPages = [
   'player/linking.md',
   'player/filters.md',
   'player/upgrades.md',
+  'player/crafting.md',
   'player/configuration.md'
 ]
 const copycatReplacePages = ['index.md', 'changelog.md', 'player/index.md', 'player/connected-materials.md', 'player/configuration.md']
@@ -102,6 +103,18 @@ for (const locale of locales) {
   }
 }
 
+for (const locale of locales) {
+  const configPath = join(sourceRoot, 'projects', 'sophisticated-backpack-is-addon', locale, 'player', 'configuration.md')
+  const configBody = readFileSync(configPath, 'utf8')
+  const configFence = String.fromCharCode(96).repeat(3) + "toml\n"
+  const defaults = configBody.split(configFence)[1]?.split("\n" + String.fromCharCode(96).repeat(3))[0]
+  const quote = String.fromCharCode(34)
+  const expected = "[crafting]\n\t#Controls when the recipe selector and Fetch ingredients button are shown.\n\t#Allowed Values: AUTO, SHOW, HIDE\n\tmanualControls = " + quote + "AUTO" + quote
+  if (defaults !== expected) failures.push("Expected the full manualControls TOML default in " + locale)
+  for (const value of ["AUTO", "SHOW", "HIDE"]) {
+    if (!configBody.includes(value)) failures.push("Missing " + locale + " manualControls enum value: " + value)
+  }
+}
 for (const locale of locales) {
   for (const page of digitalStorageExpansionPages) {
     const path = join(sourceRoot, 'projects', 'sophisticated-backpack-is-addon', locale, page)

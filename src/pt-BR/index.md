@@ -66,9 +66,9 @@ Solicite produtos pelo Stock Keeper usando receitas e conexões de ingredientes 
 
 Conecte upgrades da mochila ao AE2, Refined Storage, Tom's Simple Storage ou SCC no NeoForge 1.21.1.
 
-- **Minecraft:** 1.20.1 e 1.21.1
-- **Loaders:** Forge para 1.20.1; NeoForge para 1.21.1
-- **Guias:** vínculo, filtros e nove upgrades
+- **Minecraft:** 1.20.1, 1.21.1 e 26.1.2
+- **Loaders:** Forge para 1.20.1; NeoForge para 1.21.1 e 26.1.2
+- **Guias:** vínculo, filtros, Remote Crafting e configurações
 
 [Abrir a documentação de Digital Storage Expansion](/pt-BR/mods/sophisticated-backpack-is-addon/)
 

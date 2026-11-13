@@ -67,7 +67,7 @@ export default defineConfig({
               { text: 'Create: Copycat Replace!', link: '/en/mods/copycat-replace/' },
               { text: 'Vertical Trapdoors', link: '/en/mods/vertical-trapdoors/' },
               { text: 'Hotbar Locker', link: '/en/mods/hotbar-locker/' },
-              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/en/mods/sophisticated-backpack-is-addon/' }
+              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.6.0', link: '/en/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
@@ -169,7 +169,7 @@ export default defineConfig({
             ] }
           ],
           '/en/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.6.0', items: [
               { text: 'Overview', link: '/en/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/en/mods/sophisticated-backpack-is-addon/changelog' }
             ] },
@@ -178,6 +178,7 @@ export default defineConfig({
               { text: 'Linking', link: '/en/mods/sophisticated-backpack-is-addon/player/linking' },
               { text: 'Filters and source priority', link: '/en/mods/sophisticated-backpack-is-addon/player/filters' },
               { text: 'Upgrade catalog', link: '/en/mods/sophisticated-backpack-is-addon/player/upgrades' },
+              { text: 'Remote Crafting', link: '/en/mods/sophisticated-backpack-is-addon/player/crafting' },
               { text: 'Configuration', link: '/en/mods/sophisticated-backpack-is-addon/player/configuration' }
             ] },
             { text: 'For developers', items: [
@@ -206,7 +207,7 @@ export default defineConfig({
               { text: 'Create: Copycat Replace!', link: '/pt-BR/mods/copycat-replace/' },
               { text: 'Vertical Trapdoors', link: '/pt-BR/mods/vertical-trapdoors/' },
               { text: 'Hotbar Locker', link: '/pt-BR/mods/hotbar-locker/' },
-              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
+              { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.6.0', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' }
             ]
           }
         ],
@@ -308,7 +309,7 @@ export default defineConfig({
             ] }
           ],
           '/pt-BR/mods/sophisticated-backpack-is-addon/': [
-            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.5.0', items: [
+            { text: 'Sophisticated Backpacks: Digital Storage Expansion - 0.6.0', items: [
               { text: 'Visão geral', link: '/pt-BR/mods/sophisticated-backpack-is-addon/' },
               { text: 'Changelog', link: '/pt-BR/mods/sophisticated-backpack-is-addon/changelog' }
             ] },
@@ -317,6 +318,7 @@ export default defineConfig({
               { text: 'Vínculo', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/linking' },
               { text: 'Filtros e prioridade de origem', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/filters' },
               { text: 'Catálogo de upgrades', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/upgrades' },
+              { text: 'Remote Crafting', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/crafting' },
               { text: 'Configurações', link: '/pt-BR/mods/sophisticated-backpack-is-addon/player/configuration' }
             ] },
             { text: 'Para desenvolvedores', items: [

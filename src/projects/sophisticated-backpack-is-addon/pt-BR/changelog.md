@@ -7,6 +7,35 @@ description: Histórico de versões de Digital Storage Expansion.
 
 Fonte canônica: [CHANGELOG.md no GitHub](https://github.com/radaelilucca/mc-sophisticated-backpacks-digital-storage/blob/main/CHANGELOG.md).
 
+## [0.6.0] - 2026-11-13
+
+### Adicionado
+
+- Adicionada integração com JEI para o Remote Crafting Upgrade. O botão `+` na aba do upgrade agora busca itens na rede vinculada quando disponível.
+- Adicionadas variantes de cor para mochilas, uma para cada rede compatível: AE2, Refined Storage, Tom's Simple Storage e SCC. Faça o crafting da mochila com o item marcador da rede para mudar sua cor; o conteúdo é preservado.
+
+### Alterado
+
+- Estabilizado o suporte a Minecraft 26.1.2.
+
+### Corrigido
+
+- Corrigidas as animações de vínculo no 26.1.2.
+
+## [0.6.0-beta.1] - 2026-11-12
+
+### Adicionado
+
+- Adicionado suporte a NeoForge para Minecraft 26.1.2.
+
+### Alterado
+
+- Migrado o projeto para uma base multiloader.
+
+### Problemas conhecidos
+
+- As animações de vínculo no 26.1.2 não funcionam corretamente.
+
 ## [0.5.0] - 2026-11-08
 
 ### Adicionado

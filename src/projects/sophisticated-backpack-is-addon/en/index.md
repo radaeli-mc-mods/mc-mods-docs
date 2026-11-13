@@ -7,11 +7,11 @@ description: Link Sophisticated Backpacks upgrades to AE2, Refined Storage, and 
 
 [![CurseForge](https://cf.way2muchnoise.eu/title/1742266.svg)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-digital-storage-expansion)
 
-Connect Sophisticated Backpacks to an existing digital storage network. The mod adds nine function-specific upgrades, each using the same linking system with Applied Energistics 2, Refined Storage, or Tom's Simple Storage. SCC 1.5.3+ is supported on NeoForge 1.21.1; use SCC 1.6.5 on NeoForge 26.1.2. Remote Crafting fills empty crafting slots from the backpack and linked network for a recipe you choose. With JEI installed on NeoForge 1.21.1, its grid also works with the recipe transfer button. The mod does not add a storage network of its own.
+Connect Sophisticated Backpacks to an existing digital storage network. The mod adds nine function-specific upgrades, each using the same linking system with Applied Energistics 2, Refined Storage, or Tom's Simple Storage. SCC 1.5.3+ is supported on NeoForge 1.21.1; use SCC 1.6.5 on NeoForge 26.1.2. Remote Crafting fills empty crafting slots from the backpack and linked network for a recipe you choose. With JEI installed, its recipe transfer button also works on Forge 1.20.1 and NeoForge 1.21.1/26.1.2. Manual control visibility can be automatic, always shown, or always hidden. The mod does not add a storage network of its own.
 
 Each upgrade links to one network endpoint and follows that network's range and access rules. Item upgrades work with all four networks where supported; Remote Pump supports fluids with AE2 and Refined Storage on both loaders, and SCC on NeoForge. Tom's Simple Storage is item-only.
 
-**Documented version:** 0.5.0
+**Documented version:** 0.6.0
 
 **Minecraft:** 1.20.1 (Forge), 1.21.1 and 26.1.2 (NeoForge)
 
@@ -21,4 +21,5 @@ Each upgrade links to one network endpoint and follows that network's range and 
 - [Linking](player/linking): connect an upgrade to a network and change or remove its link.
 - [Filters and source priority](player/filters): control matching items and choose Backpack first or Linked network first.
 - [Upgrade catalog](player/upgrades): what each of the nine upgrades does.
-- [Configuration](player/configuration): configuration files and in-game settings.
+- [Remote Crafting](player/crafting): recipe transfers, batch filling, and manual controls.
+- [Configuration](player/configuration): the client visibility setting and other configuration notes.

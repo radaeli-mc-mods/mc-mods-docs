@@ -66,9 +66,9 @@ Request products through the Stock Keeper using recipes and ingredient connectio
 
 Connect Sophisticated Backpacks upgrades to AE2, Refined Storage, Tom's Simple Storage, or SCC on NeoForge 1.21.1.
 
-- **Minecraft:** 1.20.1 and 1.21.1
-- **Loaders:** Forge for 1.20.1; NeoForge for 1.21.1
-- **For players:** linking, filters, and a catalog of nine upgrades
+- **Minecraft:** 1.20.1, 1.21.1, and 26.1.2
+- **Loaders:** Forge for 1.20.1; NeoForge for 1.21.1 and 26.1.2
+- **For players:** linking, filters, Remote Crafting, and configuration
 
 [Open Digital Storage Expansion documentation](/en/mods/sophisticated-backpack-is-addon/index.md)
 
